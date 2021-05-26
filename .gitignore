@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+panel_elites_mat.mtx
+panel_elites_mat_rownames.txt
+panel_elites_mat_colnames.txt
+thetas.tsv
+correspondence_analysis.rdata
