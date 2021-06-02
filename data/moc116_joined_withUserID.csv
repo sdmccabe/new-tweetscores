@@ -1,0 +1,632 @@
+"","user_id","handle","voteview_id","type","icpsr","bioname","party_code","cqlabel","state_abbrev","chamber","seo_name","district_code","nominate.dim1"
+"1",5558312,"johnboozman","MS11620101","congress",20101,"BOOZMAN, John",200,"(AR)","AR","Senate","john-boozman",0,0.4
+"2",7270292,"jiminhofe","MS11615424","congress",15424,"INHOFE, James Mountain",200,"(OK)","OK","Senate","james-mountain-inhofe",0,0.555
+"3",7429102,"markwarner","MS11640909","congress",40909,"WARNER, Mark",100,"(VA)","VA","Senate","mark-warner",0,-0.201
+"4",10615232,"chuckgrassley","MS11614226","congress",14226,"GRASSLEY, Charles Ernest",200,"(IA)","IA","Senate","charles-ernest-grassley",0,0.346
+"5",11651202,"stevedaines","MS11621338","congress",21338,"DAINES, Steve",200,"(MT)","MT","Senate","steve-daines",0,0.555
+"6",13218102,"johncornyn","MS11640305","congress",40305,"CORNYN, John",200,"(TX)","TX","Senate","john-cornyn",0,0.495
+"7",13491312,"reptimryan","MH11620343","congress",20343,"RYAN, Timothy J.",100,"(OH-13)","OH","House","timothy-j-ryan",13,-0.403
+"8",14573926,"mikelevin","MH11621939","congress",21939,"LEVIN, Mike",100,"(CA-49)","CA","House","mike-levin",49,-0.38
+"9",14573926,"mikelevinca","MH11621939","congress",21939,"LEVIN, Mike",100,"(CA-49)","CA","House","mike-levin",49,-0.38
+"10",14836282,"jim_banks","MH11621702","congress",21702,"BANKS, James E.",200,"(IN-03)","IN","House","james-e-banks",3,0.633
+"11",14984637,"chelliepingree","MH11620920","congress",20920,"PINGREE, Chellie",100,"(ME-01)","ME","House","chellie-pingree",1,-0.42
+"12",15324851,"chriscoons","MS11640916","congress",40916,"COONS, Christopher A.",100,"(DE)","DE","Senate","christopher-a-coons",0,-0.225
+"13",15356407,"robwittman","MH11620756","congress",20756,"WITTMAN, Robert J.",200,"(VA-01)","VA","House","robert-j-wittman",1,0.444
+"14",15394954,"boblatta","MH11620755","congress",20755,"LATTA, Robert E.",200,"(OH-05)","OH","House","robert-e-latta",5,0.519
+"15",15745368,"marcorubio","MS11641102","congress",41102,"RUBIO, Marco",200,"(FL)","FL","Senate","marco-rubio",0,0.573
+"16",15751083,"michaelcburgess","MH11620355","congress",20355,"BURGESS, Michael C.",200,"(TX-26)","TX","House","michael-c-burgess",26,0.577
+"17",15764644,"speakerpelosi","MH11615448","congress",15448,"PELOSI, Nancy",100,"(CA-12)","CA","House","nancy-pelosi",12,-0.49
+"18",15808765,"corybooker","MS11641308","congress",41308,"BOOKER, Cory Anthony",100,"(NJ)","NJ","Senate","cory-anthony-booker",0,-0.612
+"19",15954997,"repblumenauer","MH11629588","congress",29588,"BLUMENAUER, Earl",100,"(OR-03)","OR","House","earl-blumenauer",3,-0.427
+"20",16256269,"virginiafoxx","MH11620521","congress",20521,"FOXX, Virginia Ann",200,"(NC-05)","NC","House","virginia-ann-foxx",5,0.631
+"21",17494010,"senschumer","MS11614858","congress",14858,"SCHUMER, Charles Ellis (Chuck)",100,"(NY)","NY","Senate","charles-ellis-chuck-schumer",0,-0.357
+"22",17907578,"dinatitus","MH11620927","congress",20927,"TITUS, Alice (Dina)",100,"(NV-01)","NV","House","alice-dina-titus",1,-0.302
+"23",17976923,"cathymcmorris","MH11620535","congress",20535,"McMORRIS RODGERS, Cathy",200,"(WA-05)","WA","House","cathy-mcmorris-rodgers",5,0.425
+"24",18030431,"judgecarter","MH11620356","congress",20356,"CARTER, John R.",200,"(TX-31)","TX","House","john-r-carter",31,0.473
+"25",18061669,"lisamurkowski","MS11640300","congress",40300,"MURKOWSKI, Lisa",200,"(AK)","AK","Senate","lisa-murkowski",0,0.21
+"26",18137749,"chrisvanhollen","MS11620330","congress",20330,"VAN HOLLEN, Christopher",100,"(MD)","MD","Senate","christopher-van-hollen",0,-0.389
+"27",18166778,"jim_jordan","MH11620738","congress",20738,"JORDAN, Jim",200,"(OH-04)","OH","House","jim-jordan",4,0.718
+"28",18229117,"duffy4wisconsin","MH11621189","congress",21189,"DUFFY, Sean",200,"(WI-07)","WI","House","sean-duffy",7,0.511
+"29",18277655,"reppeteking","MH11629375","congress",29375,"KING, Peter T.",200,"(NY-02)","NY","House","peter-t-king",2,0.259
+"30",18632666,"jerrymoran","MS11629722","congress",29722,"MORAN, Jerry",200,"(KS)","KS","Senate","jerry-moran",0,0.413
+"31",18695134,"senatormenendez","MS11629373","congress",29373,"MENENDEZ, Robert",100,"(NJ)","NJ","Senate","robert-menendez",0,-0.366
+"32",18696134,"repsires","MH11620542","congress",20542,"SIRES, Albio",100,"(NJ-08)","NJ","House","albio-sires",8,-0.404
+"33",18773159,"repscottperry","MH11621356","congress",21356,"PERRY, Scott",200,"(PA-10)","PA","House","scott-perry",10,0.623
+"34",18805303,"jefffortenberry","MH11620518","congress",20518,"FORTENBERRY, Jeff",200,"(NE-01)","NE","House","jeff-fortenberry",1,0.301
+"35",18909919,"jimlangevin","MH11620136","congress",20136,"LANGEVIN, James",100,"(RI-02)","RI","House","james-langevin",2,-0.376
+"36",18915145,"senrobportman","MS11629386","congress",29386,"PORTMAN, Robert Jones (Rob)",200,"(OH)","OH","Senate","robert-jones-rob-portman",0,0.373
+"37",18967498,"congressmangt","MH11620946","congress",20946,"THOMPSON, Glenn",200,"(PA-15)","PA","House","glenn-thompson",15,0.31
+"38",19318314,"repbenraylujan","MH11620932","congress",20932,"LUJ́N, Ben Ray",100,"(NM-03)","NM","House","ben-ray-lujan",3,-0.367
+"39",19726613,"senatorcollins","MS11649703","congress",49703,"COLLINS, Susan Margaret",200,"(ME)","ME","Senate","susan-margaret-collins",0,0.112
+"40",19739126,"gopleader","MH11620703","congress",20703,"MCCARTHY, Kevin",200,"(CA-23)","CA","House","kevin-mccarthy",23,0.459
+"41",19926675,"repkevinbrady","MH11629760","congress",29760,"BRADY, Kevin Patrick",200,"(TX-08)","TX","House","kevin-patrick-brady",8,0.524
+"42",20053279,"reppeteolson","MH11620948","congress",20948,"OLSON, Pete",200,"(TX-22)","TX","House","pete-olson",22,0.549
+"43",20113797,"stabenow","MS11629732","congress",29732,"STABENOW, Deborah Ann",100,"(MI)","MI","Senate","deborah-ann-stabenow",0,-0.34
+"44",20467163,"vernbuchanan","MH11620709","congress",20709,"BUCHANAN, Vernon G.",200,"(FL-16)","FL","House","vernon-g-buchanan",16,0.359
+"45",20545793,"repschrader","MH11620944","congress",20944,"SCHRADER, Kurt",100,"(OR-05)","OR","House","kurt-schrader",5,-0.189
+"46",20552026,"repperlmutter","MH11620705","congress",20705,"PERLMUTTER, Ed",100,"(CO-07)","CO","House","ed-perlmutter",7,-0.281
+"47",20747881,"kyrstensinema","MS11621300","congress",21300,"SINEMA, Kyrsten",100,"(AZ)","AZ","Senate","kyrsten-sinema",0,-0.102
+"48",20879626,"corygardner","MS11621112","congress",21112,"GARDNER, Cory",200,"(CO)","CO","Senate","cory-gardner",0,0.446
+"49",21059255,"tedlieu","MH11621507","congress",21507,"LIEU, Ted",100,"(CA-33)","CA","House","ted-lieu",33,-0.371
+"50",21111098,"senshelby","MS11694659","congress",94659,"SHELBY, Richard C.",200,"(AL)","AL","Senate","richard-c-shelby",0,0.428
+"51",21157904,"senatorburr","MS11629548","congress",29548,"BURR, Richard M.",200,"(NC)","NC","Senate","richard-m-burr",0,0.45
+"52",21269970,"royblunt","MS11629735","congress",29735,"BLUNT, Roy",200,"(MO)","MO","Senate","roy-blunt",0,0.427
+"53",21406834,"senmarkey","MS11614435","congress",14435,"MARKEY, Edward John",100,"(MA)","MA","Senate","edward-john-markey",0,-0.511
+"54",21572351,"auctnr1","MH11621150","congress",21150,"LONG, Billy",200,"(MO-07)","MO","House","billy-long",7,0.545
+"55",21669223,"lamaralexander","MS11640304","congress",40304,"ALEXANDER, Lamar",200,"(TN)","TN","Senate","lamar-alexander",0,0.324
+"56",22012091,"leaderhoyer","MH11614873","congress",14873,"HOYER, Steny Hamilton",100,"(MD-05)","MD","House","steny-hamilton-hoyer",5,-0.38
+"57",22044727,"senamyklobuchar","MS11640700","congress",40700,"KLOBUCHAR, Amy",100,"(MN)","MN","Senate","amy-klobuchar",0,-0.276
+"58",22055226,"replouiegohmert","MH11620527","congress",20527,"GOHMERT, Louie",200,"(TX-01)","TX","House","louie-gohmert",1,0.624
+"59",22195441,"thomtillis","MS11641504","congress",41504,"TILLIS, Thomas Roland (Thom)",200,"(NC)","NC","Senate","thomas-roland-thom-tillis",0,0.434
+"60",22523087,"repjimcooper","MH11615019","congress",15019,"COOPER, James Hayes Shofner",100,"(TN-05)","TN","House","james-hayes-shofner-cooper",5,-0.162
+"61",22545491,"kencalvert","MH11629323","congress",29323,"CALVERT, Ken",200,"(CA-42)","CA","House","ken-calvert",42,0.349
+"62",22669526,"repgwenmoore","MH11620537","congress",20537,"MOORE, Gwendolynne S. (Gwen)",100,"(WI-04)","WI","House","gwendolynne-s-gwen-moore",4,-0.529
+"63",22812754,"repgregorymeeks","MH11629776","congress",29776,"MEEKS, Gregory W.",100,"(NY-05)","NY","House","gregory-w-meeks",5,-0.413
+"64",23022687,"tedcruz","MS11641304","congress",41304,"CRUZ, Rafael Edward (Ted)",200,"(TX)","TX","Senate","rafael-edward-ted-cruz",0,0.824
+"65",23124635,"tomcoleok04","MH11620344","congress",20344,"COLE, Tom",200,"(OK-04)","OK","House","tom-cole",4,0.33
+"66",23593446,"davidcicilline","MH11621172","congress",21172,"CICILLINE, David N.",100,"(RI-01)","RI","House","david-n-cicilline",1,-0.391
+"67",23976316,"repkenmarchant","MH11620532","congress",20532,"MARCHANT, Kenny",200,"(TX-24)","TX","House","kenny-marchant",24,0.601
+"68",24195214,"janschakowsky","MH11629911","congress",29911,"SCHAKOWSKY, Janice D.",100,"(IL-09)","IL","House","janice-d-schakowsky",9,-0.607
+"69",24745957,"rephankjohnson","MH11620712","congress",20712,"JOHNSON, Hank",100,"(GA-04)","GA","House","hank-johnson",4,-0.467
+"70",24768753,"sherrodbrown","MS11629389","congress",29389,"BROWN, Sherrod",100,"(OH)","OH","Senate","sherrod-brown",0,-0.43
+"71",24913074,"repspeier","MH11620762","congress",20762,"SPEIER, Karen Lorraine Jacqueline (Jackie)",100,"(CA-14)","CA","House","karen-lorraine-jacqueline-jackie-speier",14,-0.381
+"72",25086658,"congbillposey","MH11620909","congress",20909,"POSEY, Bill",200,"(FL-08)","FL","House","bill-posey",8,0.517
+"73",26051676,"repgusbilirakis","MH11620758","congress",20758,"BILIRAKIS, Gus",200,"(FL-12)","FL","House","gus-bilirakis",12,0.404
+"74",26424123,"repmccaul","MH11620530","congress",20530,"McCAUL, Michael T.",200,"(TX-10)","TX","House","michael-t-mccaul",10,0.437
+"75",26637348,"tulsigabbard","MH11621324","congress",21324,"GABBARD, Tulsi",100,"(HI-02)","HI","House","tulsi-gabbard",2,-0.279
+"76",26653478,"jasonsmithmo","MH11621373","congress",21373,"SMITH, Jason",200,"(MO-08)","MO","House","jason-smith",8,0.597
+"77",26778110,"repwalterjones","MH11629546","congress",29546,"JONES, Walter Beaman, Jr.",200,"(NC-03)","NC","House","walter-beaman-jones-jr",3,0.244
+"78",27044466,"jameslankford","MS11621166","congress",21166,"LANKFORD, James",200,"(OK)","OK","Senate","james-lankford",0,0.587
+"79",27676828,"patrickmchenry","MH11620522","congress",20522,"McHENRY, Patrick T.",200,"(NC-10)","NC","House","patrick-t-mchenry",10,0.552
+"80",28267055,"kevincramer","MS11621350","congress",21350,"CRAMER, Kevin",200,"(ND)","ND","Senate","kevin-cramer",0,0.389
+"81",28599820,"repdianadegette","MH11629710","congress",29710,"DeGETTE, Diana",100,"(CO-01)","CO","House","diana-degette",1,-0.432
+"82",28602948,"repraulgrijalva","MH11620305","congress",20305,"GRIJALVA, Ra̼l M.",100,"(AZ-03)","AZ","House","raul-m-grijalva",3,-0.599
+"83",29201047,"senjeffmerkley","MS11640908","congress",40908,"MERKLEY, Jeff",100,"(OR)","OR","Senate","jeff-merkley",0,-0.443
+"84",29442313,"sensanders","MS11629147","congress",29147,"SANDERS, Bernard",328,"(VT)","VT","Senate","bernard-sanders",0,-0.527
+"85",29450962,"repjohnlewis","MH11615431","congress",15431,"LEWIS, John R.",100,"(GA-05)","GA","House","john-r-lewis",5,-0.589
+"86",29495695,"kloeffler","MS11641904","congress",41904,"LOEFFLER, Kelly",200,"(GA)","GA","Senate","kelly-loeffler",0,0.547
+"87",29501253,"repadamschiff","MH11620104","congress",20104,"SCHIFF, Adam",100,"(CA-28)","CA","House","adam-schiff",28,-0.349
+"88",29766367,"repsamgraves","MH11620124","congress",20124,"GRAVES, Samuel",200,"(MO-06)","MO","House","samuel-graves",6,0.442
+"89",30216513,"bradsherman","MH11629707","congress",29707,"SHERMAN, Brad",100,"(CA-30)","CA","House","brad-sherman",30,-0.342
+"90",30354991,"kamalaharris","MS11641701","congress",41701,"HARRIS, Kamala Devi",100,"(CA)","CA","Senate","kamala-devi-harris",0,-0.709
+"91",31013444,"ayannapressley","MH11621955","congress",21955,"PRESSLEY, Ayanna",100,"(MA-07)","MA","House","ayanna-pressley",7,-0.286
+"92",31611298,"jahimes","MH11620907","congress",20907,"HIMES, James A.",100,"(CT-04)","CT","House","james-a-himes",4,-0.242
+"93",31801993,"frankpallone","MH11615454","congress",15454,"PALLONE, Frank, Jr.",100,"(NJ-06)","NJ","House","frank-pallone-jr",6,-0.404
+"94",32010840,"repgregwalden","MH11629932","congress",29932,"WALDEN, Greg",200,"(OR-02)","OR","House","greg-walden",2,0.334
+"95",33537967,"amyklobuchar","MS11640700","congress",40700,"KLOBUCHAR, Amy",100,"(MN)","MN","Senate","amy-klobuchar",0,-0.276
+"96",33563161,"repjoseserrano","MH11629134","congress",29134,"SERRANO, Jos̩ E.",100,"(NY-15)","NY","House","jose-e-serrano",15,-0.491
+"97",33576489,"repbrianhiggins","MH11620519","congress",20519,"HIGGINS, Brian",100,"(NY-26)","NY","House","brian-higgins",26,-0.346
+"98",33977070,"repmikerogersal","MH11620301","congress",20301,"ROGERS, Mike Dennis",200,"(AL-03)","AL","House","mike-dennis-rogers",3,0.353
+"99",34715823,"debbielesko","MH11621757","congress",21757,"LESKO, Debbie",200,"(AZ-08)","AZ","House","debbie-lesko",8,0.608
+"100",36686040,"repmaxinewaters","MH11629106","congress",29106,"WATERS, Maxine",100,"(CA-43)","CA","House","maxine-waters",43,-0.653
+"101",37007274,"repdonyoung","MH11614066","congress",14066,"YOUNG, Donald Edwin",200,"(AK-01)","AK","House","donald-edwin-young",1,0.284
+"102",37094727,"mariodb","MH11620316","congress",20316,"DIAZ-BALART, Mario",200,"(FL-25)","FL","House","mario-diaz-balart",25,0.279
+"103",38254095,"dorismatsui","MH11620538","congress",20538,"MATSUI, Doris",100,"(CA-06)","CA","House","doris-matsui",6,-0.434
+"104",38285038,"robinlynnekelly","MH11621371","congress",21371,"KELLY, Robin L.",100,"(IL-02)","IL","House","robin-l-kelly",2,-0.46
+"105",38960144,"vgescobar","MH11621917","congress",21917,"ESCOBAR, Veronica",100,"(TX-16)","TX","House","veronica-escobar",16,-0.477
+"106",39249305,"usrepmikedoyle","MH11629561","congress",29561,"DOYLE, Michael F.",100,"(PA-18)","PA","House","michael-f-doyle",18,-0.33
+"107",40302336,"repjerrynadler","MH11629377","congress",29377,"NADLER, Jerrold Lewis",100,"(NY-10)","NY","House","jerrold-lewis-nadler",10,-0.508
+"108",41417564,"repsmucker","MH11621745","congress",21745,"SMUCKER, Lloyd K.",200,"(PA-11)","PA","House","lloyd-k-smucker",11,0.42
+"109",41533245,"aguilarpete","MH11621506","congress",21506,"AGUILAR, Peter Rey",100,"(CA-31)","CA","House","peter-rey-aguilar",31,-0.291
+"110",42481696,"bradleybyrne","MH11621376","congress",21376,"BYRNE, Bradley",200,"(AL-01)","AL","House","bradley-byrne",1,0.611
+"111",43910797,"sensherrodbrown","MS11629389","congress",29389,"BROWN, Sherrod",100,"(OH)","OH","Senate","sherrod-brown",0,-0.43
+"112",45645232,"michaelbennet","MS11640910","congress",40910,"BENNET, Michael F.",100,"(CO)","CO","Senate","michael-f-bennet",0,-0.22
+"113",47724293,"tinasmithmn","MS11641706","congress",41706,"SMITH, Tina",100,"(MN)","MN","Senate","tina-smith",0,-0.393
+"114",47747074,"brianschatz","MS11641112","congress",41112,"SCHATZ, Brian Emanuel",100,"(HI)","HI","Senate","brian-emanuel-schatz",0,-0.444
+"115",48117116,"stevekingia","MH11620325","congress",20325,"KING, Steve",200,"(IA-04)","IA","House","steve-king",4,0.611
+"116",49217025,"rubengallego","MH11621502","congress",21502,"GALLEGO, Ruben",100,"(AZ-07)","AZ","House","ruben-gallego",7,-0.451
+"117",50055701,"mittromney","MS11641902","congress",41902,"ROMNEY, Willard Mitt (Mitt)",200,"(UT)","UT","Senate","willard-mitt-mitt-romney",0,0.37
+"118",50152441,"repmcclintock","MH11620903","congress",20903,"McCLINTOCK, Tom",200,"(CA-04)","CA","House","tom-mcclintock",4,0.719
+"119",50452197,"repjohnlarson","MH11629908","congress",29908,"LARSON, John B.",100,"(CT-01)","CT","House","john-b-larson",1,-0.398
+"120",51228911,"repmiketurner","MH11620342","congress",20342,"TURNER, Michael R.",200,"(OH-10)","OH","House","michael-r-turner",10,0.27
+"121",52503751,"drphilroe","MH11620947","congress",20947,"ROE, David P. (Phil)",200,"(TN-01)","TN","House","david-p-phil-roe",1,0.485
+"122",54412900,"devinnunes","MH11620307","congress",20307,"NUNES, Devin",200,"(CA-22)","CA","House","devin-nunes",22,0.449
+"123",55677432,"billcassidy","MS11620919","congress",20919,"CASSIDY, Bill",200,"(LA)","LA","Senate","bill-cassidy",0,0.454
+"124",56864092,"repmikequigley","MH11620954","congress",20954,"QUIGLEY, Mike",100,"(IL-05)","IL","House","mike-quigley",5,-0.321
+"125",58579942,"mattgaetz","MH11621719","congress",21719,"GAETZ, Matthew L. II",200,"(FL-01)","FL","House","matthew-l-ii-gaetz",1,0.621
+"126",58928690,"repadamsmith","MH11629768","congress",29768,"SMITH, Adam",100,"(WA-09)","WA","House","adam-smith",9,-0.284
+"127",59969802,"toddyoungin","MS11621133","congress",21133,"YOUNG, Todd",200,"(IN)","IN","Senate","todd-young",0,0.477
+"128",60828944,"senatortomudall","MS11629924","congress",29924,"UDALL, Thomas (Tom)",100,"(NM)","NM","Senate","thomas-tom-udall",0,-0.452
+"129",65541270,"teddeutch","MH11620959","congress",20959,"DEUTCH, Theodore E. (Ted)",100,"(FL-22)","FL","House","theodore-e-ted-deutch",22,-0.399
+"130",66804351,"seancasten","MH11621906","congress",21906,"CASTEN, Sean",100,"(IL-06)","IL","House","sean-casten",6,-0.402
+"131",72198806,"sengillibrand","MS11620735","congress",20735,"GILLIBRAND, Kirsten",100,"(NY)","NY","Senate","kirsten-gillibrand",0,-0.473
+"132",74508260,"billpascrell","MH11629741","congress",29741,"PASCRELL, William J., Jr.",100,"(NJ-09)","NJ","House","william-j-pascrell-jr",9,-0.366
+"133",75364211,"senpatroberts","MS11614852","congress",14852,"ROBERTS, Charles Patrick (Pat)",200,"(KS)","KS","Senate","charles-patrick-pat-roberts",0,0.413
+"134",76132891,"congmikesimpson","MH11629910","congress",29910,"SIMPSON, Michael K.",200,"(ID-02)","ID","House","michael-k-simpson",2,0.296
+"135",76452765,"robert_aderholt","MH11629701","congress",29701,"ADERHOLT, Robert",200,"(AL-04)","AL","House","robert-aderholt",4,0.367
+"136",76456274,"senstabenow","MS11629732","congress",29732,"STABENOW, Deborah Ann",100,"(MI)","MI","Senate","deborah-ann-stabenow",0,-0.34
+"137",76649729,"senalexander","MS11640304","congress",40304,"ALEXANDER, Lamar",200,"(TN)","TN","Senate","lamar-alexander",0,0.324
+"138",78403308,"senatorisakson","MS11629909","congress",29909,"ISAKSON, Johnny",200,"(GA)","GA","Senate","johnny-isakson",0,0.402
+"139",78445977,"gerryconnolly","MH11620952","congress",20952,"CONNOLLY, Gerald E. (Gerry)",100,"(VA-11)","VA","House","gerald-e-gerry-connolly",11,-0.306
+"140",80612021,"jacksonleetx18","MH11629573","congress",29573,"JACKSON LEE, Sheila",100,"(TX-18)","TX","House","sheila-jackson-lee",18,-0.46
+"141",82453460,"benniegthompson","MH11629368","congress",29368,"THOMPSON, Bennie",100,"(MS-02)","MS","House","bennie-thompson",2,-0.516
+"142",84119348,"reppaultonko","MH11620934","congress",20934,"TONKO, Paul",100,"(NY-20)","NY","House","paul-tonko",20,-0.42
+"143",85396297,"repjoecourtney","MH11620706","congress",20706,"COURTNEY, Joe",100,"(CT-02)","CT","House","joe-courtney",2,-0.344
+"144",87510313,"tammybaldwin","MS11629940","congress",29940,"BALDWIN, Tammy",100,"(WI)","WI","Senate","tammy-baldwin",0,-0.498
+"145",88784440,"senmikelee","MS11641110","congress",41110,"LEE, Mike",200,"(UT)","UT","Senate","mike-lee",0,0.913
+"146",88806753,"repgaramendi","MH11620958","congress",20958,"GARAMENDI, John",100,"(CA-03)","CA","House","john-garamendi",3,-0.309
+"147",90639372,"repdwightevans","MH11621566","congress",21566,"EVANS, Dwight",100,"(PA-03)","PA","House","dwight-evans",3,-0.453
+"148",91125308,"benraylujan","MH11620932","congress",20932,"LUJ́N, Ben Ray",100,"(NM-03)","NM","House","ben-ray-lujan",3,-0.367
+"149",92186819,"maziehirono","MS11620713","congress",20713,"HIRONO, Mazie",100,"(HI)","HI","Senate","mazie-hirono",0,-0.509
+"150",109071031,"senatorcardin","MS11615408","congress",15408,"CARDIN, Benjamin Louis",100,"(MD)","MD","Senate","benjamin-louis-cardin",0,-0.321
+"151",109287731,"senatorshaheen","MS11640906","congress",40906,"SHAHEEN, Jeanne",100,"(NH)","NH","Senate","jeanne-shaheen",0,-0.239
+"152",109579534,"elisestefanik","MH11621541","congress",21541,"STEFANIK, Elise M",200,"(NY-21)","NY","House","elise-m-stefanik",21,0.221
+"153",112740986,"repronkind","MH11629769","congress",29769,"KIND, Ron",100,"(WI-03)","WI","House","ron-kind",3,-0.262
+"154",115979444,"dwstweets","MH11620504","congress",20504,"WASSERMAN SCHULTZ, Debbie",100,"(FL-23)","FL","House","debbie-wasserman-schultz",23,-0.421
+"155",117501995,"senatorcantwell","MS11639310","congress",39310,"CANTWELL, Maria E.",100,"(WA)","WA","Senate","maria-e-cantwell",0,-0.301
+"156",119250381,"carolynbmaloney","MH11629379","congress",29379,"MALONEY, Carolyn Bosher",100,"(NY-12)","NY","House","carolyn-bosher-maloney",12,-0.387
+"157",122174004,"repdinatitus","MH11620927","congress",20927,"TITUS, Alice (Dina)",100,"(NV-01)","NV","House","alice-dina-titus",1,-0.302
+"158",124224165,"repfredupton","MH11615446","congress",15446,"UPTON, Frederick Stephen",200,"(MI-06)","MI","House","frederick-stephen-upton",6,0.335
+"159",131546062,"senrickscott","MS11641903","congress",41903,"SCOTT, Richard Lynn (Rick)",200,"(FL)","FL","Senate","richard-lynn-rick-scott",0,0.5
+"160",137794015,"repteddeutch","MH11620959","congress",20959,"DEUTCH, Theodore E. (Ted)",100,"(FL-22)","FL","House","theodore-e-ted-deutch",22,-0.399
+"161",138203134,"aoc","MH11621949","congress",21949,"OCASIO-CORTEZ, Alexandria",100,"(NY-14)","NY","House","alexandria-ocasio-cortez",14,-0.226
+"162",140519774,"rosadelauro","MH11629109","congress",29109,"DeLAURO, Rosa L.",100,"(CT-03)","CT","House","rosa-l-delauro",3,-0.416
+"163",142332083,"ronjohnsonwi","MS11641111","congress",41111,"JOHNSON, Ron",200,"(WI)","WI","Senate","ron-johnson",0,0.602
+"164",145292853,"garypeters","MS11620923","congress",20923,"PETERS, Gary C.",100,"(MI)","MI","Senate","gary-c-peters",0,-0.246
+"165",150078976,"chrismurphyct","MS11620707","congress",20707,"MURPHY, Christopher",100,"(CT)","CT","Senate","christopher-murphy",0,-0.276
+"166",153486399,"repmarciafudge","MH11620941","congress",20941,"FUDGE, Marcia L.",100,"(OH-11)","OH","House","marcia-l-fudge",11,-0.582
+"167",153944899,"replloyddoggett","MH11629571","congress",29571,"DOGGETT, Lloyd Alton, II",100,"(TX-35)","TX","House","lloyd-alton-doggett-ii",35,-0.403
+"168",155669457,"repdavideprice","MH11615438","congress",15438,"PRICE, David Eugene",100,"(NC-04)","NC","House","david-eugene-price",4,-0.343
+"169",156333623,"repalgreen","MH11620529","congress",20529,"GREEN, Al",100,"(TX-09)","TX","House","al-green",9,-0.438
+"170",161411080,"gracenapolitano","MH11629903","congress",29903,"NAPOLITANO, Grace Flores",100,"(CA-32)","CA","House","grace-flores-napolitano",32,-0.448
+"171",161743731,"repkaygranger","MH11629762","congress",29762,"GRANGER, Kay",200,"(TX-12)","TX","House","kay-granger",12,0.397
+"172",161791703,"bobbyscott","MH11639307","congress",39307,"SCOTT, Robert C.",100,"(VA-03)","VA","House","robert-c-scott",3,-0.45
+"173",162069635,"repcohen","MH11620748","congress",20748,"COHEN, Stephen",100,"(TN-09)","TN","House","stephen-cohen",9,-0.399
+"174",163570705,"repcleaver","MH11620517","congress",20517,"CLEAVER, Emanuel, II",100,"(MO-05)","MO","House","emanuel-cleaver-ii",5,-0.454
+"175",164007407,"repeliotengel","MH11615603","congress",15603,"ENGEL, Eliot Lance",100,"(NY-16)","NY","House","eliot-lance-engel",16,-0.408
+"176",164369297,"nydiavelazquez","MH11629378","congress",29378,"VEĹZQUEZ, Nydia M.",100,"(NY-07)","NY","House","nydia-m-velazquez",7,-0.547
+"177",168502762,"repebj","MH11639305","congress",39305,"JOHNSON, Eddie Bernice",100,"(TX-30)","TX","House","eddie-bernice-johnson",30,-0.485
+"178",168673083,"repdavidscott","MH11620321","congress",20321,"SCOTT, David",100,"(GA-13)","GA","House","david-scott",13,-0.301
+"179",171598736,"senbobcasey","MS11640703","congress",40703,"CASEY, Robert (Bob), Jr.",100,"(PA)","PA","Senate","robert-bob-casey-jr",0,-0.31
+"180",172858784,"timkaine","MS11641305","congress",41305,"KAINE, Timothy Michael (Tim)",100,"(VA)","VA","Senate","timothy-michael-tim-kaine",0,-0.239
+"181",188019606,"whipclyburn","MH11639301","congress",39301,"CLYBURN, James Enos",100,"(SC-06)","SC","House","james-enos-clyburn",6,-0.464
+"182",190328374,"reptomgraves","MH11620962","congress",20962,"GRAVES, Tom",200,"(GA-14)","GA","House","tom-graves",14,0.722
+"183",193441812,"pramilajayapal","MH11621726","congress",21726,"JAYAPAL, Pramila",100,"(WA-07)","WA","House","pramila-jayapal",7,-0.697
+"184",193732179,"repjudychu","MH11620955","congress",20955,"CHU, Judy",100,"(CA-27)","CA","House","judy-chu",27,-0.487
+"185",193794406,"sencapito","MS11620146","congress",20146,"CAPITO, Shelley Moore",200,"(WV)","WV","Senate","shelley-moore-capito",0,0.262
+"186",193872188,"repvisclosky","MH11615124","congress",15124,"VISCLOSKY, Peter",100,"(IN-01)","IN","House","peter-visclosky",1,-0.402
+"187",196362083,"repbenmcadams","MH11621943","congress",21943,"McADAMS, Ben",100,"(UT-04)","UT","House","ben-mcadams",4,-0.067
+"188",199325935,"repandrecarson","MH11620757","congress",20757,"CARSON, Andr̩",100,"(IN-07)","IN","House","andre-carson",7,-0.43
+"189",202206694,"senjohnbarrasso","MS11640707","congress",40707,"BARRASSO, John A.",200,"(WY)","WY","Senate","john-a-barrasso",0,0.539
+"190",210926192,"repcuellar","MH11620533","congress",20533,"CUELLAR, Henry",100,"(TX-28)","TX","House","henry-cuellar",28,-0.227
+"191",211420609,"repstevestivers","MH11621163","congress",21163,"STIVERS, Steve",200,"(OH-15)","OH","House","steve-stivers",15,0.299
+"192",211530910,"repbilljohnson","MH11621162","congress",21162,"JOHNSON, Bill",200,"(OH-06)","OH","House","bill-johnson",6,0.433
+"193",216776631,"berniesanders","MS11629147","congress",29147,"SANDERS, Bernard",328,"(VT)","VT","Senate","bernard-sanders",0,-0.527
+"194",216881337,"randpaul","MS11641104","congress",41104,"PAUL, Rand",200,"(KY)","KY","Senate","rand-paul",0,0.876
+"195",217543151,"senatortimscott","MS11621173","congress",21173,"SCOTT, Tim",200,"(SC)","SC","Senate","tim-scott",0,0.642
+"196",219429281,"repkinzinger","MH11621128","congress",21128,"KINZINGER, Adam",200,"(IL-16)","IL","House","adam-kinzinger",16,0.274
+"197",221162525,"sentoomey","MS11629935","congress",29935,"TOOMEY, Patrick Joseph",200,"(PA)","PA","Senate","patrick-joseph-toomey",0,0.647
+"198",221792092,"nitalowey","MH11615612","congress",15612,"LOWEY, Nita M.",100,"(NY-17)","NY","House","nita-m-lowey",17,-0.389
+"199",223166587,"jeffmerkley","MS11640908","congress",40908,"MERKLEY, Jeff",100,"(OR)","OR","Senate","jeff-merkley",0,-0.443
+"200",224285242,"senatorbennet","MS11640910","congress",40910,"BENNET, Michael F.",100,"(CO)","CO","Senate","michael-f-bennet",0,-0.22
+"201",224294785,"repmartharoby","MH11621192","congress",21192,"ROBY, Martha",200,"(AL-02)","AL","House","martha-roby",2,0.361
+"202",225921757,"senatorlankford","MS11621166","congress",21166,"LANKFORD, James",200,"(OK)","OK","Senate","james-lankford",0,0.587
+"203",229197216,"repdavid","MH11621105","congress",21105,"SCHWEIKERT, David",200,"(AZ-06)","AZ","House","david-schweikert",6,0.59
+"204",231108733,"repbrendanboyle","MH11621548","congress",21548,"BOYLE, Brendan Francis",100,"(PA-02)","PA","House","brendan-francis-boyle",2,-0.398
+"205",231510077,"joaquincastrotx","MH11621362","congress",21362,"CASTRO, Joaquin",100,"(TX-20)","TX","House","joaquin-castro",20,-0.399
+"206",232992031,"usrepkeating","MH11621140","congress",21140,"KEATING, William R.",100,"(MA-09)","MA","House","william-r-keating",9,-0.328
+"207",233693291,"reprickcrawford","MH11621106","congress",21106,"CRAWFORD, Rick",200,"(AR-01)","AR","House","rick-crawford",1,0.409
+"208",233737858,"senronjohnson","MS11641111","congress",41111,"JOHNSON, Ron",200,"(WI)","WI","Senate","ron-johnson",0,0.602
+"209",233842454,"justinamash","MH11691143","congress",91143,"AMASH, Justin",328,"(MI-03)","MI","House","justin-amash",3,0.317
+"210",233949261,"rephuizenga","MH11621142","congress",21142,"HUIZENGA, Bill",200,"(MI-02)","MI","House","bill-huizenga",2,0.588
+"211",234014087,"repwilson","MH11621118","congress",21118,"WILSON, Frederica",100,"(FL-24)","FL","House","frederica-wilson",24,-0.476
+"212",234022257,"repseanduffy","MH11621189","congress",21189,"DUFFY, Sean",200,"(WI-07)","WI","House","sean-duffy",7,0.511
+"213",234057152,"repmgriffith","MH11621191","congress",21191,"GRIFFITH, H. Morgan",200,"(VA-09)","VA","House","h-morgan-griffith",9,0.552
+"214",234128524,"sentoddyoung","MS11621133","congress",21133,"YOUNG, Todd",200,"(IN)","IN","Senate","todd-young",0,0.477
+"215",234374703,"sen_joemanchin","MS11640915","congress",40915,"MANCHIN, Joe, III",100,"(WV)","WV","Senate","joe-manchin-iii",0,-0.055
+"216",234469322,"rep_stevewomack","MH11621108","congress",21108,"WOMACK, Steve",200,"(AR-03)","AR","House","steve-womack",3,0.354
+"217",234797704,"austinscottga08","MH11621123","congress",21123,"SCOTT, Austin",200,"(GA-08)","GA","House","austin-scott",8,0.569
+"218",234812598,"replarrybucshon","MH11621132","congress",21132,"BUCSHON, Larry",200,"(IN-08)","IN","House","larry-bucshon",8,0.402
+"219",234822928,"repbobgibbs","MH11621165","congress",21165,"GIBBS, Bob",200,"(OH-07)","OH","House","bob-gibbs",7,0.474
+"220",235190657,"repchuck","MH11621178","congress",21178,"FLEISCHMANN, Chuck",200,"(TN-03)","TN","House","chuck-fleischmann",3,0.457
+"221",235217558,"sencorygardner","MS11621112","congress",21112,"GARDNER, Cory",200,"(CO)","CO","Senate","cory-gardner",0,0.446
+"222",235312723,"desjarlaistn04","MH11621179","congress",21179,"DESJARLAIS, Scott",200,"(TN-04)","TN","House","scott-desjarlais",4,0.579
+"223",236279233,"normajtorres","MH11621508","congress",21508,"TORRES, Norma Judith",100,"(CA-35)","CA","House","norma-judith-torres",35,-0.362
+"224",236511574,"sengarypeters","MS11620923","congress",20923,"PETERS, Gary C.",100,"(MI)","MI","Senate","gary-c-peters",0,-0.246
+"225",237299871,"repmobrooks","MH11621193","congress",21193,"BROOKS, Mo",200,"(AL-05)","AL","House","mo-brooks",5,0.647
+"226",237312687,"repbillflores","MH11621182","congress",21182,"FLORES, Bill",200,"(TX-17)","TX","House","bill-flores",17,0.573
+"227",237750442,"repstevechabot","MH11629550","congress",29550,"CHABOT, Steve",200,"(OH-01)","OH","House","steve-chabot",1,0.572
+"228",237763317,"rephartzler","MH11621149","congress",21149,"HARTZLER, Vicky",200,"(MO-04)","MO","House","vicky-hartzler",4,0.465
+"229",237862972,"repwalberg","MH11620725","congress",20725,"WALBERG, Tim",200,"(MI-07)","MI","House","tim-walberg",7,0.517
+"230",239548513,"dougjones","MS11641705","congress",41705,"JONES, Gordon Douglas (Doug)",100,"(AL)","AL","Senate","gordon-douglas-doug-jones",0,-0.092
+"231",239949176,"repkarenbass","MH11621110","congress",21110,"BASS, Karen",100,"(CA-37)","CA","House","karen-bass",37,-0.586
+"232",240393970,"repjeffduncan","MH11621174","congress",21174,"DUNCAN, Jeff",200,"(SC-03)","SC","House","jeff-duncan",3,0.731
+"233",240427862,"repmckinley","MH11621188","congress",21188,"McKINLEY, David",200,"(WV-01)","WV","House","david-mckinley",1,0.3
+"234",240760644,"repgosar","MH11621103","congress",21103,"GOSAR, Paul",200,"(AZ-04)","AZ","House","paul-gosar",4,0.676
+"235",240812994,"repyvetteclarke","MH11620733","congress",20733,"CLARKE, Yvette Diane",100,"(NY-09)","NY","House","yvette-diane-clarke",9,-0.615
+"236",242426145,"repmcgovern","MH11629729","congress",29729,"McGOVERN, James P.",100,"(MA-02)","MA","House","james-p-mcgovern",2,-0.539
+"237",242555999,"senwhitehouse","MS11640704","congress",40704,"WHITEHOUSE, Sheldon",100,"(RI)","RI","Senate","sheldon-whitehouse",0,-0.361
+"238",242772524,"repfranklucas","MH11629393","congress",29393,"LUCAS, Frank D.",200,"(OK-03)","OK","House","frank-d-lucas",3,0.362
+"239",242836537,"senatorleahy","MS11614307","congress",14307,"LEAHY, Patrick Joseph",100,"(VT)","VT","Senate","patrick-joseph-leahy",0,-0.361
+"240",242873057,"reptipton","MH11621111","congress",21111,"TIPTON, Scott",200,"(CO-03)","CO","House","scott-tipton",3,0.447
+"241",242926427,"herrerabeutler","MH11621187","congress",21187,"HERRERA BEUTLER, Jaime",200,"(WA-03)","WA","House","jaime-herrera-beutler",3,0.359
+"242",245451804,"repjimcosta","MH11620501","congress",20501,"COSTA, Jim",100,"(CA-16)","CA","House","jim-costa",16,-0.191
+"243",247334603,"senatordurbin","MS11615021","congress",15021,"DURBIN, Richard Joseph",100,"(IL)","IL","Senate","richard-joseph-durbin",0,-0.352
+"244",248495200,"sethmoulton","MH11621525","congress",21525,"MOULTON, Seth",100,"(MA-06)","MA","House","seth-moulton",6,-0.286
+"245",248735463,"repbarbaralee","MH11629778","congress",29778,"LEE, Barbara",100,"(CA-13)","CA","House","barbara-lee",13,-0.682
+"246",249348006,"repannaeshoo","MH11629312","congress",29312,"ESHOO, Anna Georges",100,"(CA-18)","CA","House","anna-georges-eshoo",18,-0.381
+"247",249410485,"sanfordbishop","MH11629339","congress",29339,"BISHOP, Sanford Dixon, Jr.",100,"(GA-02)","GA","House","sanford-dixon-bishop-jr",2,-0.282
+"248",249787913,"senatorcarper","MS11615015","congress",15015,"CARPER, Thomas Richard",100,"(DE)","DE","Senate","thomas-richard-carper",0,-0.176
+"249",250188760,"ronwyden","MS11614871","congress",14871,"WYDEN, Ronald Lee",100,"(OR)","OR","Senate","ronald-lee-wyden",0,-0.327
+"250",252249233,"reppeterdefazio","MH11615410","congress",15410,"DeFAZIO, Peter Anthony",100,"(OR-04)","OR","House","peter-anthony-defazio",4,-0.429
+"251",252819323,"reptomreed","MH11621101","congress",21101,"REED, Thomas W. II",200,"(NY-23)","NY","House","thomas-w-ii-reed",23,0.28
+"252",254082173,"repjoewilson","MH11620138","congress",20138,"WILSON, Addison Graves (Joe)",200,"(SC-02)","SC","House","addison-graves-joe-wilson",2,0.538
+"253",257180565,"cheribustos","MH11621329","congress",21329,"BUSTOS, Cheri",100,"(IL-17)","IL","House","cheri-bustos",17,-0.238
+"254",258900199,"repmaloney","MH11629379","congress",29379,"MALONEY, Carolyn Bosher",100,"(NY-12)","NY","House","carolyn-bosher-maloney",12,-0.387
+"255",262192574,"cindyhydesmith","MS11641707","congress",41707,"HYDE-SMITH, Cindy",200,"(MS)","MS","Senate","cindy-hyde-smith",0,0.366
+"256",264219447,"senatorwicker","MS11629534","congress",29534,"WICKER, Roger F.",200,"(MS)","MS","Senate","roger-f-wicker",0,0.376
+"257",267854863,"reprichmond","MH11621137","congress",21137,"RICHMOND, Cedric",100,"(LA-02)","LA","House","cedric-richmond",2,-0.485
+"258",267938462,"repzoelofgren","MH11629504","congress",29504,"LOFGREN, Zoe",100,"(CA-19)","CA","House","zoe-lofgren",19,-0.402
+"259",278124059,"senblumenthal","MS11641101","congress",41101,"BLUMENTHAL, Richard",100,"(CT)","CT","Senate","richard-blumenthal",0,-0.43
+"260",278145569,"marshablackburn","MS11620351","congress",20351,"BLACKBURN, Marsha",200,"(TN)","TN","Senate","marsha-blackburn",0,0.618
+"261",281540744,"repwebster","MH11621116","congress",21116,"WEBSTER, Daniel A.",200,"(FL-11)","FL","House","daniel-a-webster",11,0.509
+"262",286476728,"deb4congressnm","MH11621928","congress",21928,"HAALAND, Debra",100,"(NM-01)","NM","House","debra-haaland",1,-0.322
+"263",291756142,"senatorenzi","MS11649706","congress",49706,"ENZI, Michael B.",200,"(WY)","WY","Senate","michael-b-enzi",0,0.544
+"264",292594517,"scottpeterssd","MH11621315","congress",21315,"PETERS, Scott",100,"(CA-52)","CA","House","scott-peters",52,-0.178
+"265",293131808,"pattymurray","MS11649308","congress",49308,"MURRAY, Patty",100,"(WA)","WA","Senate","patty-murray",0,-0.35
+"266",295685416,"conawaytx11","MH11620531","congress",20531,"CONAWAY, K. Michael",200,"(TX-11)","TX","House","k-michael-conaway",11,0.591
+"267",296245061,"repadriansmith","MH11620729","congress",20729,"SMITH, Adrian",200,"(NE-03)","NE","House","adrian-smith",3,0.516
+"268",296361085,"senjohnthune","MS11629754","congress",29754,"THUNE, John",200,"(SD)","SD","Senate","john-thune",0,0.41
+"269",299883942,"congpalazzo","MH11621148","congress",21148,"PALAZZO, Steven",200,"(MS-04)","MS","House","steven-palazzo",4,0.525
+"270",303861808,"repthompson","MH11629901","congress",29901,"THOMPSON, Michael",100,"(CA-05)","CA","House","michael-thompson",5,-0.395
+"271",305216911,"repbobbyrush","MH11629346","congress",29346,"RUSH, Bobby L.",100,"(IL-01)","IL","House","bobby-l-rush",1,-0.478
+"272",305620929,"call_me_dutch","MH11620329","congress",20329,"RUPPERSBERGER, C. A. (Dutch)",100,"(MD-02)","MD","House","c-a-dutch-ruppersberger",2,-0.295
+"273",308794407,"dickdurbin","MS11615021","congress",15021,"DURBIN, Richard Joseph",100,"(IL)","IL","Senate","richard-joseph-durbin",0,-0.352
+"274",309070309,"markpocan","MH11621370","congress",21370,"POCAN, Mark",100,"(WI-02)","WI","House","mark-pocan",2,-0.543
+"275",310310133,"repstephenlynch","MH11620119","congress",20119,"LYNCH, Stephen F.",100,"(MA-08)","MA","House","stephen-f-lynch",8,-0.35
+"276",312134473,"replindasanchez","MH11620310","congress",20310,"ŚNCHEZ, Linda T.",100,"(CA-38)","CA","House","linda-t-sanchez",38,-0.508
+"277",334894942,"jaredhuffman","MH11621303","congress",21303,"HUFFMAN, Jared",100,"(CA-02)","CA","House","jared-huffman",2,-0.426
+"278",343041182,"tomcottonar","MS11621301","congress",21301,"COTTON, Tom",200,"(AR)","AR","Senate","tom-cotton",0,0.577
+"279",344972339,"repdevinnunes","MH11620307","congress",20307,"NUNES, Devin",200,"(CA-22)","CA","House","devin-nunes",22,0.449
+"280",353890966,"timburchett","MH11621905","congress",21905,"BURCHETT, Timothy",200,"(TN-02)","TN","House","timothy-burchett",2,0.71
+"281",357606935,"ewarren","MS11641301","congress",41301,"WARREN, Elizabeth",100,"(MA)","MA","Senate","elizabeth-warren",0,-0.767
+"282",364415553,"repsarbanes","MH11620724","congress",20724,"SARBANES, John",100,"(MD-03)","MD","House","john-sarbanes",3,-0.467
+"283",377534571,"mactxpress","MH11629572","congress",29572,"THORNBERRY, William McClellan (Mac)",200,"(TX-13)","TX","House","william-mcclellan-mac-thornberry",13,0.525
+"284",377609596,"ericswalwell","MH11621306","congress",21306,"SWALWELL, Eric",100,"(CA-15)","CA","House","eric-swalwell",15,-0.367
+"285",381152398,"repterrisewell","MH11621102","congress",21102,"SEWELL, Terri",100,"(AL-07)","AL","House","terri-sewell",7,-0.391
+"286",381577682,"tomcarperforde","MS11615015","congress",15015,"CARPER, Thomas Richard",100,"(DE)","DE","Senate","thomas-richard-carper",0,-0.176
+"287",382791093,"senjohnhoeven","MS11641107","congress",41107,"HOEVEN, John",200,"(ND)","ND","Senate","john-hoeven",0,0.342
+"288",384913290,"repjohnyarmuth","MH11620723","congress",20723,"YARMUTH, John",100,"(KY-03)","KY","House","john-yarmuth",3,-0.378
+"289",385429543,"repmcnerney","MH11620702","congress",20702,"McNERNEY, Jerry",100,"(CA-09)","CA","House","jerry-mcnerney",9,-0.262
+"290",389840566,"rephorsford","MH11621339","congress",21339,"HORSFORD, Steven",100,"(NV-04)","NV","House","steven-horsford",4,-0.354
+"291",391445643,"haleylive","MH11621972","congress",21972,"STEVENS, Haley",100,"(MI-11)","MI","House","haley-stevens",11,-0.375
+"292",398193180,"jimmygomezca","MH11621754","congress",21754,"GOMEZ, Jimmy",100,"(CA-34)","CA","House","jimmy-gomez",34,-0.596
+"293",402719755,"markamodeinv2","MH11621196","congress",21196,"AMODEI, Mark E.",200,"(NV-02)","NV","House","mark-e-amodei",2,0.381
+"294",404132211,"repricklarsen","MH11620145","congress",20145,"LARSEN, Richard Ray (Rick)",100,"(WA-02)","WA","House","richard-ray-rick-larsen",2,-0.365
+"295",412595957,"replancegooden","MH11621925","congress",21925,"GOODEN, Lance",200,"(TX-05)","TX","House","lance-gooden",5,0.73
+"296",432676344,"gkbutterfield","MH11620340","congress",20340,"BUTTERFIELD, George Kenneth, Jr. (G.K.)",100,"(NC-01)","NC","House","george-kenneth-butterfield-jr-g-k",1,-0.404
+"297",432771620,"repsusandavis","MH11620108","congress",20108,"DAVIS, Susan A.",100,"(CA-53)","CA","House","susan-a-davis",53,-0.343
+"298",432895323,"lindseygrahamsc","MS11629566","congress",29566,"GRAHAM, Lindsey O.",200,"(SC)","SC","Senate","lindsey-o-graham",0,0.406
+"299",435331179,"rashidatlaib","MH11621975","congress",21975,"TLAIB, Rashida",100,"(MI-13)","MI","House","rashida-tlaib",13,-0.275
+"300",442824717,"reprichardneal","MH11615616","congress",15616,"NEAL, Richard Edmund",100,"(MA-01)","MA","House","richard-edmund-neal",1,-0.417
+"301",466532637,"timryan","MH11620343","congress",20343,"RYAN, Timothy J.",100,"(OH-13)","OH","House","timothy-j-ryan",13,-0.403
+"302",467823431,"repjeffries","MH11621343","congress",21343,"JEFFRIES, Hakeem",100,"(NY-08)","NY","House","hakeem-jeffries",8,-0.487
+"303",476256944,"senfeinstein","MS11649300","congress",49300,"FEINSTEIN, Dianne",100,"(CA)","CA","Senate","dianne-feinstein",0,-0.268
+"304",479872233,"reproybalallard","MH11629317","congress",29317,"ROYBAL-ALLARD, Lucille",100,"(CA-40)","CA","House","lucille-roybal-allard",40,-0.47
+"305",486694111,"senjackreed","MS11629142","congress",29142,"REED, John F. (Jack)",100,"(RI)","RI","Senate","john-f-jack-reed",0,-0.371
+"306",510516465,"daveloebsack","MH11620720","congress",20720,"LOEBSACK, Dave",100,"(IA-02)","IA","House","dave-loebsack",2,-0.276
+"307",515822213,"senatortester","MS11640702","congress",40702,"TESTER, Jon",100,"(MT)","MT","Senate","jon-tester",0,-0.218
+"308",516880804,"bettymccollum04","MH11620122","congress",20122,"McCOLLUM, Betty",100,"(MN-04)","MN","House","betty-mccollum",4,-0.418
+"309",518644221,"repbradwenstrup","MH11621351","congress",21351,"WENSTRUP, Brad",200,"(OH-02)","OH","House","brad-wenstrup",2,0.551
+"310",550401754,"rephalrogers","MH11614854","congress",14854,"ROGERS, Harold Dallas (Hal)",200,"(KY-05)","KY","House","harold-dallas-hal-rogers",5,0.336
+"311",558769636,"repbonamici","MH11621198","congress",21198,"BONAMICI, Suzanne",100,"(OR-01)","OR","House","suzanne-bonamici",1,-0.393
+"312",567508925,"repdean","MH11621915","congress",21915,"DEAN, Madeleine",100,"(PA-04)","PA","House","madeleine-dean",4,-0.52
+"313",571214272,"grace4ny","MH11621342","congress",21342,"MENG, Grace",100,"(NY-06)","NY","House","grace-meng",6,-0.378
+"314",574799823,"chrispappasnh","MH11621951","congress",21951,"PAPPAS, Chris",100,"(NH-01)","NH","House","chris-pappas",1,-0.37
+"315",581141508,"repmarcykaptur","MH11615029","congress",15029,"KAPTUR, Marcia Carolyn (Marcy)",100,"(OH-09)","OH","House","marcia-carolyn-marcy-kaptur",9,-0.35
+"316",584012853,"repdlamborn","MH11620704","congress",20704,"LAMBORN, Doug",200,"(CO-05)","CO","House","doug-lamborn",5,0.678
+"317",584912320,"lacyclaymo1","MH11620147","congress",20147,"CLAY, William Lacy, Jr.",100,"(MO-01)","MO","House","william-lacy-clay-jr",1,-0.481
+"318",600463589,"mikecrapo","MS11629345","congress",29345,"CRAPO, Michael Dean",200,"(ID)","ID","Senate","michael-dean-crapo",0,0.51
+"319",617266600,"katieporteroc","MH11621954","congress",21954,"PORTER, Katie",100,"(CA-45)","CA","House","katie-porter",45,-0.17
+"320",771152516,"rokhanna","MH11621728","congress",21728,"KHANNA, Rohit",100,"(CA-17)","CA","House","rohit-khanna",17,-0.588
+"321",776664410,"repcartwright","MH11621358","congress",21358,"CARTWRIGHT, Matt",100,"(PA-08)","PA","House","matt-cartwright",8,-0.371
+"322",783792992,"ilhanmn","MH11621950","congress",21950,"OMAR, Ilhan",100,"(MN-05)","MN","House","ilhan-omar",5,-0.299
+"323",787373558,"repcummings","MH11629587","congress",29587,"CUMMINGS, Elijah Eugene",100,"(MD-07)","MD","House","elijah-eugene-cummings",7,-0.438
+"324",789244177,"repdannydavis","MH11629717","congress",29717,"DAVIS, Danny K.",100,"(IL-07)","IL","House","danny-k-davis",7,-0.486
+"325",834069080,"repdavidrouzer","MH11621544","congress",21544,"ROUZER, David",200,"(NC-07)","NC","House","david-rouzer",7,0.572
+"326",838462994,"kycomer","MH11621565","congress",21565,"COMER, James",200,"(KY-01)","KY","House","james-comer",1,0.637
+"327",851621377,"jimpressoffice","MH11614657","congress",14657,"SENSENBRENNER, Frank James, Jr.",200,"(WI-05)","WI","House","frank-james-sensenbrenner-jr",5,0.638
+"328",935033864,"reprichhudson","MH11621346","congress",21346,"HUDSON, Richard",200,"(NC-08)","NC","House","richard-hudson",8,0.582
+"329",935368364,"mikekellypa","MH11621167","congress",21167,"KELLY, Mike",200,"(PA-16)","PA","House","mike-kelly",16,0.343
+"330",942156122,"repswalwell","MH11621306","congress",21306,"SWALWELL, Eric",100,"(CA-15)","CA","House","eric-swalwell",15,-0.367
+"331",946549322,"senatorhassan","MS11641702","congress",41702,"HASSAN, Margaret (Maggie)",100,"(NH)","NH","Senate","margaret-maggie-hassan",0,-0.241
+"332",950783972,"repbera","MH11621304","congress",21304,"BERA, Ami",100,"(CA-07)","CA","House","ami-bera",7,-0.231
+"333",960962340,"repandyharrismd","MH11621139","congress",21139,"HARRIS, Andy",200,"(MD-01)","MD","House","andy-harris",1,0.655
+"334",963480595,"repmarkmeadows","MH11621348","congress",21348,"MEADOWS, Mark",200,"(NC-11)","NC","House","mark-meadows",11,0.605
+"335",968650362,"sentomcotton","MS11621301","congress",21301,"COTTON, Tom",200,"(AR)","AR","Senate","tom-cotton",0,0.577
+"336",970207298,"senwarren","MS11641301","congress",41301,"WARREN, Elizabeth",100,"(MA)","MA","Senate","elizabeth-warren",0,-0.767
+"337",975200486,"repthomasmassie","MH11631102","congress",31102,"MASSIE, Thomas",200,"(KY-04)","KY","House","thomas-massie",4,0.682
+"338",976969338,"repdavejoyce","MH11621353","congress",21353,"JOYCE, David",200,"(OH-14)","OH","House","david-joyce",14,0.264
+"339",993153006,"rodneydavis","MH11621328","congress",21328,"DAVIS, Rodney",200,"(IL-13)","IL","House","rodney-davis",13,0.281
+"340",995193054,"repdelbene","MH11631101","congress",31101,"DelBENE, Suzan K.",100,"(WA-01)","WA","House","suzan-k-delbene",1,-0.281
+"341",1009269193,"replipinski","MH11620508","congress",20508,"LIPINSKI, Daniel",100,"(IL-03)","IL","House","daniel-lipinski",3,-0.229
+"342",1037321378,"repmarktakano","MH11621312","congress",21312,"TAKANO, Mark",100,"(CA-41)","CA","House","mark-takano",41,-0.463
+"343",1045110018,"repdankildee","MH11621372","congress",21372,"KILDEE, Dan",100,"(MI-05)","MI","House","dan-kildee",5,-0.396
+"344",1048784496,"senkevincramer","MS11621350","congress",21350,"CRAMER, Kevin",200,"(ND)","ND","Senate","kevin-cramer",0,0.389
+"345",1051127714,"repgracemeng","MH11621342","congress",21342,"MENG, Grace",100,"(NY-06)","NY","House","grace-meng",6,-0.378
+"346",1051446626,"repannwagner","MH11621337","congress",21337,"WAGNER, Ann",200,"(MO-02)","MO","House","ann-wagner",2,0.45
+"347",1055730738,"replowenthal","MH11621313","congress",21313,"LOWENTHAL, Alan",100,"(CA-47)","CA","House","alan-lowenthal",47,-0.45
+"348",1055907624,"repjoekennedy","MH11621335","congress",21335,"KENNEDY, Joseph P. III",100,"(MA-04)","MA","House","joseph-p-iii-kennedy",4,-0.424
+"349",1058051748,"txrandy14","MH11621360","congress",21360,"WEBER, Randy",200,"(TX-14)","TX","House","randy-weber",14,0.709
+"350",1058256326,"repchriscollins","MH11621345","congress",21345,"COLLINS, Chris",200,"(NY-27)","NY","House","chris-collins",27,0.357
+"351",1058345042,"reptomrice","MH11621359","congress",21359,"RICE, Tom",200,"(SC-07)","SC","House","tom-rice",7,0.602
+"352",1058460818,"repholding","MH11621349","congress",21349,"HOLDING, George E.B.",200,"(NC-02)","NC","House","george-e-b-holding",2,0.609
+"353",1058520120,"senduckworth","MS11621325","congress",21325,"DUCKWORTH, Tammy",100,"(IL)","IL","Senate","tammy-duckworth",0,-0.334
+"354",1058717720,"repanniekuster","MH11621340","congress",21340,"KUSTER, Ann McLane",100,"(NH-02)","NH","House","ann-mclane-kuster",2,-0.254
+"355",1058917562,"repderekkilmer","MH11621368","congress",21368,"KILMER, Derek",100,"(WA-06)","WA","House","derek-kilmer",6,-0.309
+"356",1060370282,"repmullin","MH11621355","congress",21355,"MULLIN, Markwayne",200,"(OK-02)","OK","House","markwayne-mullin",2,0.514
+"357",1060487274,"repdougcollins","MH11621323","congress",21323,"COLLINS, Doug",200,"(GA-09)","GA","House","doug-collins",9,0.61
+"358",1064206014,"tulsipress","MH11621324","congress",21324,"GABBARD, Tulsi",100,"(HI-02)","HI","House","tulsi-gabbard",2,-0.279
+"359",1065995022,"repwalorski","MH11621330","congress",21330,"WALORSKI, Jackie",200,"(IN-02)","IN","House","jackie-walorski",2,0.429
+"360",1068481578,"senangusking","MS11641300","congress",41300,"KING, Angus Stanley, Jr.",328,"(ME)","ME","Senate","angus-stanley-king-jr",0,-0.155
+"361",1068499286,"repdennyheck","MH11621369","congress",21369,"HECK, Denny",100,"(WA-10)","WA","House","denny-heck",10,-0.31
+"362",1069124515,"replamalfa","MH11621302","congress",21302,"LaMALFA, Doug",200,"(CA-01)","CA","House","doug-lamalfa",1,0.537
+"363",1071102246,"rephuffman","MH11621303","congress",21303,"HUFFMAN, Jared",100,"(CA-02)","CA","House","jared-huffman",2,-0.426
+"364",1071402577,"senatorfischer","MS11641302","congress",41302,"FISCHER, Debra (Deb)",200,"(NE)","NE","Senate","debra-deb-fischer",0,0.473
+"365",1071840474,"repschneider","MH11621326","congress",21326,"SCHNEIDER, Brad",100,"(IL-10)","IL","House","brad-schneider",10,-0.171
+"366",1071900114,"reptedyoho","MH11621317","congress",21317,"YOHO, Ted",200,"(FL-03)","FL","House","ted-yoho",3,0.704
+"367",1072008757,"repchrisstewart","MH11621367","congress",21367,"STEWART, Chris",200,"(UT-02)","UT","House","chris-stewart",2,0.529
+"368",1072467470,"repseanmaloney","MH11621344","congress",21344,"MALONEY, Sean Patrick",100,"(NY-18)","NY","House","sean-patrick-maloney",18,-0.237
+"369",1074101017,"susanwbrooks","MH11621331","congress",21331,"BROOKS, Susan",200,"(IN-05)","IN","House","susan-brooks",5,0.356
+"370",1074129612,"repveasey","MH11621365","congress",21365,"VEASEY, Marc",100,"(TX-33)","TX","House","marc-veasey",33,-0.403
+"371",1074412920,"reppaulcook","MH11621305","congress",21305,"COOK, Paul",200,"(CA-08)","CA","House","paul-cook",8,0.376
+"372",1074480192,"sentedcruz","MS11641304","congress",41304,"CRUZ, Rafael Edward (Ted)",200,"(TX)","TX","Senate","rafael-edward-ted-cruz",0,0.824
+"373",1074518754,"senatorbaldwin","MS11629940","congress",29940,"BALDWIN, Tammy",100,"(WI)","WI","Senate","tammy-baldwin",0,-0.498
+"374",1077121945,"reploisfrankel","MH11621321","congress",21321,"FRANKEL, Lois",100,"(FL-21)","FL","House","lois-frankel",21,-0.399
+"375",1077446982,"reprwilliams","MH11621364","congress",21364,"WILLIAMS, Roger",200,"(TX-25)","TX","House","roger-williams",25,0.587
+"376",1080509366,"repbillfoster","MH11620749","congress",20749,"FOSTER, Bill",100,"(IL-11)","IL","House","bill-foster",11,-0.228
+"377",1080844782,"senatorsinema","MS11621300","congress",21300,"SINEMA, Kyrsten",100,"(AZ)","AZ","Senate","kyrsten-sinema",0,-0.102
+"378",1083448909,"repfilemonvela","MH11621366","congress",21366,"VELA, Filemon",100,"(TX-34)","TX","House","filemon-vela",34,-0.312
+"379",1089334250,"repandybarr","MH11621333","congress",21333,"BARR, Garland H. (Andy) IV",200,"(KY-06)","KY","House","garland-h-andy-iv-barr",6,0.492
+"380",1089859058,"congressmanruiz","MH11621311","congress",21311,"RUIZ, Raul",100,"(CA-36)","CA","House","raul-ruiz",36,-0.242
+"381",1089859058,"repraulruizmd","MH11621311","congress",21311,"RUIZ, Raul",100,"(CA-36)","CA","House","raul-ruiz",36,-0.242
+"382",1092979962,"repcheri","MH11621329","congress",21329,"BUSTOS, Cheri",100,"(IL-17)","IL","House","cheri-bustos",17,-0.238
+"383",1096059529,"senatorrisch","MS11640902","congress",40902,"RISCH, James",200,"(ID)","ID","Senate","james-risch",0,0.631
+"384",1099199839,"martinheinrich","MS11620930","congress",20930,"HEINRICH, Martin",100,"(NM)","NM","Senate","martin-heinrich",0,-0.322
+"385",1129029661,"edmarkey","MS11614435","congress",14435,"MARKEY, Edward John",100,"(MA)","MA","Senate","edward-john-markey",0,-0.511
+"386",1135486501,"repscottpeters","MH11621315","congress",21315,"PETERS, Scott",100,"(CA-52)","CA","House","scott-peters",52,-0.178
+"387",1140648348,"repdwstweets","MH11620504","congress",20504,"WASSERMAN SCHULTZ, Debbie",100,"(FL-23)","FL","House","debbie-wasserman-schultz",23,-0.421
+"388",1155335864,"repdonaldpayne","MH11631103","congress",31103,"PAYNE, Donald, Jr.",100,"(NJ-10)","NJ","House","donald-payne-jr",10,-0.517
+"389",1206227149,"repmarkpocan","MH11621370","congress",21370,"POCAN, Mark",100,"(WI-02)","WI","House","mark-pocan",2,-0.543
+"390",1209417007,"stevescalise","MH11620759","congress",20759,"SCALISE, Steve",200,"(LA-01)","LA","House","steve-scalise",1,0.563
+"391",1222257180,"repcardenas","MH11621309","congress",21309,"ĆRDENAS, Tony",100,"(CA-29)","CA","House","tony-cardenas",29,-0.382
+"392",1240107944,"rogermarshallmd","MH11621734","congress",21734,"MARSHALL, Roger Wayne",200,"(KS-01)","KS","House","roger-wayne-marshall",1,0.528
+"393",1243902714,"repbrownley","MH11621308","congress",21308,"BROWNLEY, Julia",100,"(CA-26)","CA","House","julia-brownley",26,-0.286
+"394",1249982359,"senatemajldr","MS11614921","congress",14921,"McCONNELL, Addison Mitchell (Mitch)",200,"(KY)","KY","Senate","addison-mitchell-mitch-mcconnell",0,0.403
+"395",1257667158,"chiproytx","MH11621961","congress",21961,"ROY, Charles",200,"(TX-21)","TX","House","charles-roy",21,0.8
+"396",1260172386,"repjuanvargas","MH11621314","congress",21314,"VARGAS, Juan",100,"(CA-51)","CA","House","juan-vargas",51,-0.398
+"397",1262099252,"senbrianschatz","MS11641112","congress",41112,"SCHATZ, Brian Emanuel",100,"(HI)","HI","Senate","brian-emanuel-schatz",0,-0.444
+"398",1289319271,"repchrissmith","MH11614863","congress",14863,"SMITH, Christopher Henry",200,"(NJ-04)","NJ","House","christopher-henry-smith",4,0.164
+"399",1305596696,"rep_hunter","MH11620963","congress",20963,"HUNTER, Duncan Duane",200,"(CA-50)","CA","House","duncan-duane-hunter",50,0.539
+"400",1339931490,"reprobinkelly","MH11621371","congress",21371,"KELLY, Robin L.",100,"(IL-02)","IL","House","robin-l-kelly",2,-0.46
+"401",1383059977,"joniernst","MS11641502","congress",41502,"ERNST, Joni",200,"(IA)","IA","Senate","joni-ernst",0,0.532
+"402",1397501864,"perduesenate","MS11641501","congress",41501,"PERDUE, David Alfred, Jr.",200,"(GA)","GA","Senate","david-alfred-perdue-jr",0,0.573
+"403",1410590874,"peterwelch","MH11620750","congress",20750,"WELCH, Peter",100,"(VT-01)","VT","House","peter-welch",1,-0.409
+"404",1444015610,"usreplong","MH11621150","congress",21150,"LONG, Billy",200,"(MO-07)","MO","House","billy-long",7,0.545
+"405",1480852568,"bensasse","MS11641503","congress",41503,"SASSE, Benjamin Eric",200,"(NE)","NE","Senate","benjamin-eric-sasse",0,0.795
+"406",1531521632,"repbeatty","MH11621352","congress",21352,"BEATTY, Joyce",100,"(OH-03)","OH","House","joyce-beatty",3,-0.43
+"407",1542372750,"joeneguse","MH11621948","congress",21948,"NEGUSE, Joseph",100,"(CO-02)","CO","House","joseph-neguse",2,-0.441
+"408",1623308912,"repjasonsmith","MH11621373","congress",21373,"SMITH, Jason",200,"(MO-08)","MO","House","jason-smith",8,0.597
+"409",1849261916,"repblaine","MH11620926","congress",20926,"LUETKEMEYER, Blaine",200,"(MO-03)","MO","House","blaine-luetkemeyer",3,0.437
+"410",1880674038,"usrepkcastor","MH11620708","congress",20708,"CASTOR, Kathy",100,"(FL-14)","FL","House","kathy-castor",14,-0.438
+"411",1908143071,"repguthrie","MH11620916","congress",20916,"GUTHRIE, Brett",200,"(KY-02)","KY","House","brett-guthrie",2,0.417
+"412",1912799826,"jdanbishop","MH11621986","congress",21986,"BISHOP, Dan",200,"(NC-09)","NC","House","dan-bishop",9,0.865
+"413",2167097881,"senbooker","MS11641308","congress",41308,"BOOKER, Cory Anthony",100,"(NJ)","NJ","Senate","cory-anthony-booker",0,-0.612
+"414",2212905492,"jenniferwexton","MH11621983","congress",21983,"WEXTON, Jennifer",100,"(VA-10)","VA","House","jennifer-wexton",10,-0.411
+"415",2253968388,"repbyrne","MH11621376","congress",21376,"BYRNE, Bradley",200,"(AL-01)","AL","House","bradley-byrne",1,0.611
+"416",2293131060,"repkclark","MH11621375","congress",21375,"CLARK, Katherine M.",100,"(MA-05)","MA","House","katherine-m-clark",5,-0.484
+"417",2352629311,"hawleymo","MS11641901","congress",41901,"HAWLEY, Joshua David",200,"(MO)","MO","Senate","joshua-david-hawley",0,0.574
+"418",2371339658,"repjimmygomez","MH11621754","congress",21754,"GOMEZ, Jimmy",100,"(CA-34)","CA","House","jimmy-gomez",34,-0.596
+"419",2382685057,"reprobwoodall","MH11621122","congress",21122,"WOODALL, Rob",200,"(GA-07)","GA","House","rob-woodall",7,0.598
+"420",2433737761,"rephastingsfl","MH11629337","congress",29337,"HASTINGS, Alcee Lamar",100,"(FL-20)","FL","House","alcee-lamar-hastings",20,-0.564
+"421",2696643955,"repmoolenaar","MH11621526","congress",21526,"MOOLENAAR, John",200,"(MI-04)","MI","House","john-moolenaar",4,0.398
+"422",2750127259,"repleezeldin","MH11621539","congress",21539,"ZELDIN, Lee M",200,"(NY-01)","NY","House","lee-m-zeldin",1,0.386
+"423",2847221717,"repratcliffe","MH11621549","congress",21549,"RATCLIFFE, John",200,"(TX-04)","TX","House","john-ratcliffe",4,0.693
+"424",2852998461,"repwesterman","MH11621563","congress",21563,"WESTERMAN, Bruce Eugene",200,"(AR-04)","AR","House","bruce-eugene-westerman",4,0.549
+"425",2856787757,"senjoniernst","MS11641502","congress",41502,"ERNST, Joni",200,"(IA)","IA","Senate","joni-ernst",0,0.532
+"426",2861616083,"usrepgarypalmer","MH11621500","congress",21500,"PALMER, Gary James",200,"(AL-06)","AL","House","gary-james-palmer",6,0.71
+"427",2862577383,"repkenbuck","MH11621510","congress",21510,"BUCK, Kenneth Robert",200,"(CO-04)","CO","House","kenneth-robert-buck",4,0.754
+"428",2863006655,"replawrence","MH11621530","congress",21530,"LAWRENCE, Brenda L",100,"(MI-14)","MI","House","brenda-l-lawrence",14,-0.446
+"429",2863210809,"sendavidperdue","MS11641501","congress",41501,"PERDUE, David Alfred, Jr.",200,"(GA)","GA","Senate","david-alfred-perdue-jr",0,0.573
+"430",2891210047,"sendansullivan","MS11641500","congress",41500,"SULLIVAN, Daniel Scott",200,"(AK)","AK","Senate","daniel-scott-sullivan",0,0.477
+"431",2914163523,"reploudermilk","MH11621515","congress",21515,"LOUDERMILK, Barry D.",200,"(GA-11)","GA","House","barry-d-loudermilk",11,0.688
+"432",2914515430,"reptomemmer","MH11621531","congress",21531,"EMMER, Thomas Earl II",200,"(MN-06)","MN","House","thomas-earl-ii-emmer",6,0.459
+"433",2916086925,"repadams","MH11621545","congress",21545,"ADAMS, Alma",100,"(NC-12)","NC","House","alma-adams",12,-0.465
+"434",2929491549,"repbrianbabin","MH11621551","congress",21551,"BABIN, Brian",200,"(TX-36)","TX","House","brian-babin",36,0.698
+"435",2930635215,"repnewhouse","MH11621556","congress",21556,"NEWHOUSE, Daniel Milton",200,"(WA-04)","WA","House","daniel-milton-newhouse",4,0.349
+"436",2951574214,"repgarretgraves","MH11621523","congress",21523,"GRAVES, Garret",200,"(LA-06)","LA","House","garret-graves",6,0.461
+"437",2953974395,"repfrenchhill","MH11621503","congress",21503,"HILL, French",200,"(AR-02)","AR","House","french-hill",2,0.454
+"438",2955485182,"senatorrounds","MS11641505","congress",41505,"ROUNDS, Marion Michael (Mike)",200,"(SD)","SD","Senate","marion-michael-mike-rounds",0,0.396
+"439",2962813893,"repstefanik","MH11621541","congress",21541,"STEFANIK, Elise M",200,"(NY-21)","NY","House","elise-m-stefanik",21,0.221
+"440",2962868158,"repdonbeyer","MH11621554","congress",21554,"BEYER, Donald Sternoff Jr.",100,"(VA-08)","VA","House","donald-sternoff-jr-beyer",8,-0.386
+"441",2962891515,"repabraham","MH11621522","congress",21522,"ABRAHAM, Ralph",200,"(LA-05)","LA","House","ralph-abraham",5,0.539
+"442",2962923040,"sensasse","MS11641503","congress",41503,"SASSE, Benjamin Eric",200,"(NE)","NE","Senate","benjamin-eric-sasse",0,0.795
+"443",2963445730,"hurdonthehill","MH11621550","congress",21550,"HURD, William Ballard",200,"(TX-23)","TX","House","william-ballard-hurd",23,0.294
+"444",2964174789,"senthomtillis","MS11641504","congress",41504,"TILLIS, Thomas Roland (Thom)",200,"(NC)","NC","Senate","thomas-roland-thom-tillis",0,0.434
+"445",2964287128,"reprickallen","MH11621516","congress",21516,"ALLEN, Rick W.",200,"(GA-12)","GA","House","rick-w-allen",12,0.677
+"446",2964526557,"repalexmooney","MH11621557","congress",21557,"MOONEY, Alex X.",200,"(WV-02)","WV","House","alex-x-mooney",2,0.578
+"447",2964877294,"repbost","MH11621519","congress",21519,"BOST, Mike",200,"(IL-12)","IL","House","mike-bost",12,0.27
+"448",2964949642,"senmcsallyaz","MS11621501","congress",21501,"McSALLY, Martha",200,"(AZ)","AZ","Senate","martha-mcsally",0,0.345
+"449",2966205003,"repmarkwalker","MH11621543","congress",21543,"WALKER, Bradley Mark",200,"(NC-06)","NC","House","bradley-mark-walker",6,0.641
+"450",2966570782,"reprubengallego","MH11621502","congress",21502,"GALLEGO, Ruben",100,"(AZ-07)","AZ","House","ruben-gallego",7,-0.451
+"451",2966765501,"repjohnkatko","MH11621542","congress",21542,"KATKO, John",200,"(NY-24)","NY","House","john-katko",24,0.204
+"452",2968007206,"repdesaulnier","MH11621504","congress",21504,"DESAULNIER, Mark James",100,"(CA-11)","CA","House","mark-james-desaulnier",11,-0.529
+"453",2968451607,"repbonnie","MH11621538","congress",21538,"WATSON COLEMAN, Bonnie",100,"(NJ-12)","NJ","House","bonnie-watson-coleman",12,-0.626
+"454",2970279814,"repdebdingell","MH11621529","congress",21529,"DINGELL, Debbie",100,"(MI-12)","MI","House","debbie-dingell",12,-0.407
+"455",2970462034,"repkathleenrice","MH11621540","congress",21540,"RICE, Kathleen Maura",100,"(NY-04)","NY","House","kathleen-maura-rice",4,-0.284
+"456",2973870195,"repbuddycarter","MH11621513","congress",21513,"CARTER, Buddy",200,"(GA-01)","GA","House","buddy-carter",1,0.581
+"457",2975091705,"congressmanhice","MH11621514","congress",21514,"HICE, Jody Brownlow",200,"(GA-10)","GA","House","jody-brownlow-hice",10,0.79
+"458",2976606250,"repgrothman","MH11621559","congress",21559,"GROTHMAN, Glenn",200,"(WI-06)","WI","House","glenn-grothman",6,0.616
+"459",3018670151,"reppeteaguilar","MH11621548","congress",21548,"BOYLE, Brendan Francis",100,"(PA-02)","PA","House","brendan-francis-boyle",2,-0.398
+"460",3044993235,"reptedlieu","MH11621507","congress",21507,"LIEU, Ted",100,"(CA-33)","CA","House","ted-lieu",33,-0.371
+"461",3122099613,"donaldnorcross","MH11621536","congress",21536,"NORCROSS, Donald",100,"(NJ-01)","NJ","House","donald-norcross",1,-0.426
+"462",3145735852,"catherinefornv","MS11641700","congress",41700,"CORTEZ MASTO, Catherine Marie",100,"(NV)","NV","Senate","catherine-marie-cortez-masto",0,-0.37
+"463",3317799825,"reptrentkelly","MH11621561","congress",21561,"KELLY, Trent",200,"(MS-01)","MS","House","trent-kelly",1,0.625
+"464",3686482216,"replahood","MH11621562","congress",21562,"LaHOOD, Darin",200,"(IL-18)","IL","House","darin-lahood",18,0.463
+"465",4205133682,"greschenthaler","MH11621956","congress",21956,"RESCHENTHALER, Guy",200,"(PA-14)","PA","House","guy-reschenthaler",14,0.35
+"466",4304448314,"congboyle","MH11621548","congress",21548,"BOYLE, Brendan Francis",100,"(PA-02)","PA","House","brendan-francis-boyle",2,-0.398
+"467",742735530287304704,"warrendavidson","MH11621564","congress",21564,"DAVIDSON, Warren",200,"(OH-08)","OH","House","warren-davidson",8,0.708
+"468",750046943905058816,"debbieforfl","MH11621947","congress",21947,"MUCARSEL-POWELL, Debbie",100,"(FL-26)","FL","House","debbie-mucarsel-powell",26,-0.344
+"469",751799352755052544,"jackbergman_mi1","MH11621704","congress",21704,"BERGMAN, John",200,"(MI-01)","MI","House","john-bergman",1,0.426
+"470",796183515998068736,"repstephmurphy","MH11621738","congress",21738,"MURPHY, Stephanie",100,"(FL-07)","FL","House","stephanie-murphy",7,-0.156
+"471",796736612554117120,"repjimmypanetta","MH11621740","congress",21740,"PANETTA, James Varni",100,"(CA-20)","CA","House","james-varni-panetta",20,-0.303
+"472",798973032362606600,"repvaldemings","MH11621713","congress",21713,"DEMINGS, Valdez Butler",100,"(FL-10)","FL","House","valdez-butler-demings",10,-0.339
+"473",803694179079458816,"senkamalaharris","MS11641701","congress",41701,"HARRIS, Kamala Devi",100,"(CA)","CA","Senate","kamala-devi-harris",0,-0.709
+"474",806583915012046854,"repdrewferguson","MH11621717","congress",21717,"FERGUSON, Anderson Drew IV",200,"(GA-03)","GA","House","anderson-drew-iv-ferguson",3,0.624
+"475",806906355214852096,"repraskin","MH11621741","congress",21741,"RASKIN, Jamie Ben",100,"(MD-08)","MD","House","jamie-ben-raskin",8,-0.547
+"476",808416682972770304,"repohalleran","MH11621739","congress",21739,"O'HALLERAN, Thomas C.",100,"(AZ-01)","AZ","House","thomas-c-o-halleran",1,-0.185
+"477",811239440916054016,"malinowski","MH11621942","congress",21942,"MALINOWSKI, Tomaz",100,"(NJ-07)","NJ","House","tomaz-malinowski",7,-0.271
+"478",811313565760163844,"sencortezmasto","MS11641700","congress",41700,"CORTEZ MASTO, Catherine Marie",100,"(NV)","NV","Senate","catherine-marie-cortez-masto",0,-0.37
+"479",811632636598910976,"reppaulmitchell","MH11621737","congress",21737,"MITCHELL, Paul",200,"(MI-10)","MI","House","paul-mitchell",10,0.426
+"480",811986281177772032,"reptrey","MH11621725","congress",21725,"HOLLINGSWORTH, Joseph Albert III",200,"(IN-09)","IN","House","joseph-albert-iii-hollingsworth",9,0.407
+"481",814103950404239360,"repbrianmast","MH11621735","congress",21735,"MAST, Brian Jeffery",200,"(FL-18)","FL","House","brian-jeffery-mast",18,0.412
+"482",814179031956488192,"congressmanraja","MH11621730","congress",21730,"KRISHNAMOORTHI, S. Raja",100,"(IL-08)","IL","House","s-raja-krishnamoorthi",8,-0.311
+"483",815241612154417152,"repjackbergman","MH11621704","congress",21704,"BERGMAN, John",200,"(MI-01)","MI","House","john-bergman",1,0.426
+"484",815310506596691968,"repjoshg","MH11621723","congress",21723,"GOTTHEIMER, Josh S.",100,"(NJ-05)","NJ","House","josh-s-gottheimer",5,-0.138
+"485",815733290955112448,"repjayapal","MH11621726","congress",21726,"JAYAPAL, Pramila",100,"(WA-07)","WA","House","pramila-jayapal",7,-0.697
+"486",815952318487298048,"drnealdunnfl2","MH11621714","congress",21714,"DUNN, Neal Patrick",200,"(FL-02)","FL","House","neal-patrick-dunn",2,0.533
+"487",815966620300480514,"repgallagher","MH11621720","congress",21720,"GALLAGHER, Michael",200,"(WI-08)","WI","House","michael-gallagher",8,0.444
+"488",815985039485837312,"reploucorrea","MH11621711","congress",21711,"CORREA, Jose Luis",100,"(CA-46)","CA","House","jose-luis-correa",46,-0.283
+"489",816012124505931780,"repdavidkustoff","MH11621731","congress",21731,"KUSTOFF, David",200,"(TN-08)","TN","House","david-kustoff",8,0.533
+"490",816030424778543104,"repcharliecrist","MH11621712","congress",21712,"CRIST, Charlie Joseph Jr.",100,"(FL-13)","FL","House","charlie-joseph-jr-crist",13,-0.218
+"491",816111677917851649,"reprooney","MH11621742","congress",21742,"ROONEY, Francis",200,"(FL-19)","FL","House","francis-rooney",19,0.508
+"492",816131319033950208,"repjimbanks","MH11621702","congress",21702,"BANKS, James E.",200,"(IN-03)","IN","House","james-e-banks",3,0.633
+"493",816157667882373120,"repcarbajal","MH11621709","congress",21709,"CARBAJAL, Salud",100,"(CA-24)","CA","House","salud-carbajal",24,-0.299
+"494",816181091673448448,"repmceachin","MH11621736","congress",21736,"MCEACHIN, Aston Donald",100,"(VA-04)","VA","House","aston-donald-mceachin",4,-0.376
+"495",816284664658874368,"reparrington","MH11621700","congress",21700,"ARRINGTON, Jodey Cook",200,"(TX-19)","TX","House","jodey-cook-arrington",19,0.625
+"496",816298918468259841,"reprokhanna","MH11621728","congress",21728,"KHANNA, Rohit",100,"(CA-17)","CA","House","rohit-khanna",17,-0.588
+"497",816303263586914304,"repbrianfitz","MH11621718","congress",21718,"FITZPATRICK, Brian K.",200,"(PA-01)","PA","House","brian-k-fitzpatrick",1,0.178
+"498",816652616625168388,"repandybiggsaz","MH11621705","congress",21705,"BIGGS, Andrew S.",200,"(AZ-05)","AZ","House","andrew-s-biggs",5,0.882
+"499",816683274076614656,"senjohnkennedy","MS11641703","congress",41703,"KENNEDY, John Neely",200,"(LA)","LA","Senate","john-neely-kennedy",0,0.559
+"500",816705409486618624,"reptomsuozzi","MH11621747","congress",21747,"SUOZZI, Thomas",100,"(NY-03)","NY","House","thomas-suozzi",3,-0.209
+"501",816719802328715264,"replizcheney","MH11621710","congress",21710,"CHENEY, Liz",200,"(WY-01)","WY","House","liz-cheney",1,0.509
+"502",816833925456789505,"repbarragan","MH11621703","congress",21703,"BARRAǴN, Nanette Diaz",100,"(CA-44)","CA","House","nanette-diaz-barragan",44,-0.512
+"503",817050219007328258,"replbr","MH11621706","congress",21706,"BLUNT ROCHESTER, Lisa",100,"(DE-01)","DE","House","lisa-blunt-rochester",1,-0.327
+"504",817076257770835968,"repespaillat","MH11621715","congress",21715,"ESPAILLAT, Adriano J.",100,"(NY-13)","NY","House","adriano-j-espaillat",13,-0.617
+"505",817138492614524928,"reptedbudd","MH11621708","congress",21708,"BUDD, Theodore Paul",200,"(NC-13)","NC","House","theodore-paul-budd",13,0.67
+"506",818472418620608512,"repallawsonjr","MH11621732","congress",21732,"LAWSON, Alfred Jr.",100,"(FL-05)","FL","House","alfred-jr-lawson",5,-0.252
+"507",818536152588238849,"repgonzalez","MH11621722","congress",21722,"GONZALEZ, Vicente Jr.",100,"(TX-15)","TX","House","vicente-jr-gonzalez",15,-0.378
+"508",818554054309715969,"senjackyrosen","MS11621743","congress",21743,"ROSEN, Jacklyn Sheryl",100,"(NV)","NV","Senate","jacklyn-sheryl-rosen",0,-0.274
+"509",818713465653051392,"repdarrensoto","MH11621746","congress",21746,"SOTO, Darren Michael",100,"(FL-09)","FL","House","darren-michael-soto",9,-0.38
+"510",818948638890217473,"repmattgaetz","MH11621719","congress",21719,"GAETZ, Matthew L. II",200,"(FL-01)","FL","House","matthew-l-ii-gaetz",1,0.621
+"511",818975124460335106,"repdonbacon","MH11621701","congress",21701,"BACON, Donald J.",200,"(NE-02)","NE","House","donald-j-bacon",2,0.411
+"512",823552974253342721,"repanthonybrown","MH11621707","congress",21707,"BROWN, Anthony Gregory",100,"(MD-04)","MD","House","anthony-gregory-brown",4,-0.342
+"513",826589191412862976,"joecunninghamsc","MH11621913","congress",21913,"CUNNINGHAM, Joe",100,"(SC-01)","SC","House","joe-cunningham",1,-0.118
+"514",827279765287559171,"repmikejohnson","MH11621727","congress",21727,"JOHNSON, Mike",200,"(LA-04)","LA","House","mike-johnson",4,0.557
+"515",828977216595849216,"reprutherfordfl","MH11621744","congress",21744,"RUTHERFORD, John Henry",200,"(FL-04)","FL","House","john-henry-rutherford",4,0.399
+"516",829061809135030272,"delgadoforny19","MH11621916","congress",21916,"DELGADO, Antonio",100,"(NY-19)","NY","House","antonio-delgado",19,-0.202
+"517",839226269627621376,"katiehill4ca","MH11621932","congress",21932,"HILL, Katie",100,"(CA-25)","CA","House","katie-hill",25,-0.306
+"518",843636970538618880,"repclayhiggins","MH11621724","congress",21724,"HIGGINS, Clay",200,"(LA-03)","LA","House","clay-higgins",3,0.569
+"519",854715071116849157,"repronestes","MH11621750","congress",21750,"ESTES, Ron",200,"(KS-04)","KS","House","ron-estes",4,0.6
+"520",872148729184362497,"drpaulgosar","MH11621103","congress",21103,"GOSAR, Paul",200,"(AZ-04)","AZ","House","paul-gosar",4,0.676
+"521",872156132688711681,"laurenunderwood","MH11621979","congress",21979,"UNDERWOOD, Lauren",100,"(IL-14)","IL","House","lauren-underwood",14,-0.568
+"522",880480631108644864,"repralphnorman","MH11621753","congress",21753,"NORMAN, Ralph",200,"(SC-05)","SC","House","ralph-norman",5,0.785
+"523",882958562296819714,"spanbergerva07","MH11621966","congress",21966,"SPANBERGER, Abigail",100,"(VA-07)","VA","House","abigail-spanberger",7,-0.172
+"524",892491627088011264,"maxrose4ny","MH11621958","congress",21958,"ROSE, Max",100,"(NY-11)","NY","House","max-rose",11,-0.175
+"525",899978622416695297,"gillibrandny","MS11620735","congress",20735,"GILLIBRAND, Kirsten",100,"(NY)","NY","Senate","kirsten-gillibrand",0,-0.473
+"526",930552552302792705,"dancrenshawtx","MH11621911","congress",21911,"CRENSHAW, Daniel",200,"(TX-02)","TX","House","daniel-crenshaw",2,0.393
+"527",931614483050414080,"repjohncurtis","MH11621755","congress",21755,"CURTIS, John R.",200,"(UT-03)","UT","House","john-r-curtis",3,0.542
+"528",941000686275387392,"sentinasmith","MS11641706","congress",41706,"SMITH, Tina",100,"(MN)","MN","Senate","tina-smith",0,-0.393
+"529",941080085121175552,"sendougjones","MS11641705","congress",41705,"JONES, Gordon Douglas (Doug)",100,"(AL)","AL","Senate","gordon-douglas-doug-jones",0,-0.092
+"530",961312723035394048,"marygayscanlon","MH11621762","congress",21762,"SCANLON, Mary Gay",100,"(PA-05)","PA","House","mary-gay-scanlon",5,-0.487
+"531",983348251972816896,"senhydesmith","MS11641707","congress",41707,"HYDE-SMITH, Cindy",200,"(MS)","MS","Senate","cindy-hyde-smith",0,0.366
+"532",984456621417000960,"repconorlamb","MH11621756","congress",21756,"LAMB, Conor",100,"(PA-17)","PA","House","conor-lamb",17,-0.118
+"533",996094929733652481,"repdlesko","MH11621757","congress",21757,"LESKO, Debbie",200,"(AZ-08)","AZ","House","debbie-lesko",8,0.608
+"534",1017500185356853248,"senbillcassidy","MS11620919","congress",20919,"CASSIDY, Bill",200,"(LA)","LA","Senate","bill-cassidy",0,0.454
+"535",1017819745880543238,"repwexton","MH11621983","congress",21983,"WEXTON, Jennifer",100,"(VA-10)","VA","House","jennifer-wexton",10,-0.411
+"536",1028854804087492613,"reptimburchett","MH11621905","congress",21905,"BURCHETT, Timothy",200,"(TN-02)","TN","House","timothy-burchett",2,0.71
+"537",1029094268542099457,"lancegooden","MH11621925","congress",21925,"GOODEN, Lance",200,"(TX-05)","TX","House","lance-gooden",5,0.73
+"538",1037341536592310272,"repbalderson","MH11621759","congress",21759,"BALDERSON, Troy",200,"(OH-12)","OH","House","troy-balderson",12,0.442
+"539",1039879658400112640,"repcloudtx","MH11621758","congress",21758,"CLOUD, Michael",200,"(TX-27)","TX","House","michael-cloud",27,0.647
+"540",1052896620797460481,"rephoulahan","MH11621934","congress",21934,"HOULAHAN, Christina",100,"(PA-06)","PA","House","christina-houlahan",6,-0.31
+"541",1054381765224210432,"repagonzalez","MH11621924","congress",21924,"GONZALEZ, Anthony",200,"(OH-16)","OH","House","anthony-gonzalez",16,0.294
+"542",1060584809095925762,"repshalala","MH11621963","congress",21963,"SHALALA, Donna",100,"(FL-27)","FL","House","donna-shalala",27,-0.357
+"543",1061310112013434882,"repdeanphillips","MH11621953","congress",21953,"PHILLIPS, Dean",100,"(MN-03)","MN","House","dean-phillips",3,-0.232
+"544",1064595993222615040,"repjoemorelle","MH11621761","congress",21761,"MORELLE, Joseph D.",100,"(NY-25)","NY","House","joseph-d-morelle",25,-0.314
+"545",1067541214671577093,"repmgs","MH11621762","congress",21762,"SCANLON, Mary Gay",100,"(PA-05)","PA","House","mary-gay-scanlon",5,-0.487
+"546",1067748650485497862,"repchrispappas","MH11621951","congress",21951,"PAPPAS, Chris",100,"(NH-01)","NH","House","chris-pappas",1,-0.37
+"547",1067818539179024386,"repkevinhern","MH11621760","congress",21760,"HERN, Kevin",200,"(OK-01)","OK","House","kevin-hern",1,0.68
+"548",1068273911224094721,"repkatiehill","MH11621932","congress",21932,"HILL, Katie",100,"(CA-25)","CA","House","katie-hill",25,-0.306
+"549",1069636653353000962,"repsusanwild","MH11621763","congress",21763,"WILD, Susan",100,"(PA-07)","PA","House","susan-wild",7,-0.367
+"550",1072134139560620033,"repmikelevin","MH11621939","congress",21939,"LEVIN, Mike",100,"(CA-49)","CA","House","mike-levin",49,-0.38
+"551",1072158357237174272,"repbencline","MH11621908","congress",21908,"CLINE, Benjamin",200,"(VA-06)","VA","House","benjamin-cline",6,0.716
+"552",1074782372594413569,"repdustyjohnson","MH11621935","congress",21935,"JOHNSON, Dustin",200,"(SD-01)","SD","House","dustin-johnson",1,0.489
+"553",1075040139351597056,"repvantaylor","MH11621973","congress",21973,"TAYLOR, Nicholas",200,"(TX-03)","TX","House","nicholas-taylor",3,0.552
+"554",1075080722241736704,"repharley","MH11621960","congress",21960,"ROUDA, Harley",100,"(CA-48)","CA","House","harley-rouda",48,-0.325
+"555",1075205691621720064,"repbryansteil","MH11621970","congress",21970,"STEIL, Bryan",200,"(WI-01)","WI","House","bryan-steil",1,0.425
+"556",1075517806551154689,"repescobar","MH11621917","congress",21917,"ESCOBAR, Veronica",100,"(TX-16)","TX","House","veronica-escobar",16,-0.477
+"557",1075830599007510535,"reppetestauber","MH11621969","congress",21969,"STAUBER, Peter",200,"(MN-08)","MN","House","peter-stauber",8,0.279
+"558",1075904377221722113,"repfletcher","MH11621919","congress",21919,"FLETCHER, Elizabeth",100,"(TX-07)","TX","House","elizabeth-fletcher",7,-0.43
+"559",1076161611033968640,"rephaleystevens","MH11621972","congress",21972,"STEVENS, Haley",100,"(MI-11)","MI","House","haley-stevens",11,-0.375
+"560",1078355119920562176,"repcolinallred","MH11621900","congress",21900,"ALLRED, Colin",100,"(TX-32)","TX","House","colin-allred",32,-0.442
+"561",1078401427347857408,"repslotkin","MH11621965","congress",21965,"SLOTKIN, Elissa",100,"(MI-08)","MI","House","elissa-slotkin",8,-0.314
+"562",1078692057940742144,"repmaxrose","MH11621958","congress",21958,"ROSE, Max",100,"(NY-11)","NY","House","max-rose",11,-0.175
+"563",1078693601356509184,"senatorromney","MS11641902","congress",41902,"ROMNEY, Willard Mitt (Mitt)",200,"(UT)","UT","Senate","willard-mitt-mitt-romney",0,0.37
+"564",1078741899572240384,"reprussfulcher","MH11621920","congress",21920,"FULCHER, Russell",200,"(ID-01)","ID","House","russell-fulcher",1,0.618
+"565",1078749802765139968,"repjoeneguse","MH11621948","congress",21948,"NEGUSE, Joseph",100,"(CO-02)","CO","House","joseph-neguse",2,-0.441
+"566",1078771401497161728,"repspanberger","MH11621966","congress",21966,"SPANBERGER, Abigail",100,"(VA-07)","VA","House","abigail-spanberger",7,-0.172
+"567",1078771848882593793,"repandykimnj","MH11621937","congress",21937,"KIM, Andy",100,"(NJ-03)","NJ","House","andy-kim",3,-0.293
+"568",1079061579973439488,"repsusielee","MH11621938","congress",21938,"LEE, Susie",100,"(NV-03)","NV","House","susie-lee",3,-0.29
+"569",1079104563280527364,"repaoc","MH11621949","congress",21949,"OCASIO-CORTEZ, Alexandria",100,"(NY-14)","NY","House","alexandria-ocasio-cortez",14,-0.226
+"570",1079769536730140672,"reprashida","MH11621975","congress",21975,"TLAIB, Rashida",100,"(MI-13)","MI","House","rashida-tlaib",13,-0.275
+"571",1079770852302958592,"reptimmons","MH11621974","congress",21974,"TIMMONS, William",200,"(SC-04)","SC","House","william-timmons",4,0.592
+"572",1079802482640019456,"reploritrahan","MH11621977","congress",21977,"TRAHAN, Lori",100,"(MA-03)","MA","House","lori-trahan",3,-0.429
+"573",1080191866509901826,"repjasoncrow","MH11621912","congress",21912,"CROW, Jason",100,"(CO-06)","CO","House","jason-crow",6,-0.268
+"574",1080198683713507335,"repcunningham","MH11621913","congress",21913,"CUNNINGHAM, Joe",100,"(SC-01)","SC","House","joe-cunningham",1,-0.118
+"575",1080222360643485698,"repangiecraig","MH11621910","congress",21910,"CRAIG, Angela",100,"(MN-02)","MN","House","angela-craig",2,-0.296
+"576",1080277407867772930,"repandylevin","MH11621940","congress",21940,"LEVIN, Andy",100,"(MI-09)","MI","House","andy-levin",9,-0.521
+"577",1080292515939565568,"repelaineluria","MH11621941","congress",21941,"LURIA, Elaine",100,"(VA-02)","VA","House","elaine-luria",2,-0.179
+"578",1080307235350241280,"rep_watkins","MH11621982","congress",21982,"WATKINS, Steve",200,"(KS-02)","KS","House","steve-watkins",2,0.553
+"579",1080462532815532032,"repkimschrier","MH11621962","congress",21962,"SCHRIER, Kim",100,"(WA-08)","WA","House","kim-schrier",8,-0.329
+"580",1080477288955826176,"repmarkgreen","MH11621926","congress",21926,"GREEN, Mark",200,"(TN-07)","TN","House","mark-green",7,0.72
+"581",1080485692298444800,"repdelgado","MH11621916","congress",21916,"DELGADO, Antonio",100,"(NY-19)","NY","House","antonio-delgado",19,-0.202
+"582",1080504024695222273,"repriggleman","MH11621957","congress",21957,"RIGGLEMAN, Denver",200,"(VA-05)","VA","House","denver-riggleman",5,0.487
+"583",1080515866255593472,"reparmstrongnd","MH11621901","congress",21901,"ARMSTRONG, Kelly",200,"(ND-01)","ND","House","kelly-armstrong",1,0.452
+"584",1080516116395499522,"repdavids","MH11621914","congress",21914,"DAVIDS, Sharice",100,"(KS-03)","KS","House","sharice-davids",3,-0.247
+"585",1080539438508400642,"repunderwood","MH11621979","congress",21979,"UNDERWOOD, Lauren",100,"(IL-14)","IL","House","lauren-underwood",14,-0.568
+"586",1080569698536878081,"repsherrill","MH11621964","congress",21964,"SHERRILL, Mikie",100,"(NJ-11)","NJ","House","mikie-sherrill",11,-0.173
+"587",1080573351914061825,"repdavidtrone","MH11621978","congress",21978,"TRONE, David",100,"(MD-06)","MD","House","david-trone",6,-0.275
+"588",1080574793630527505,"repmeuser","MH11621945","congress",21945,"MEUSER, Dan",200,"(PA-09)","PA","House","dan-meuser",9,0.569
+"589",1080584229510172678,"reppressley","MH11621955","congress",21955,"PRESSLEY, Ayanna",100,"(MA-07)","MA","House","ayanna-pressley",7,-0.286
+"590",1080587263132733442,"repsylviagarcia","MH11621922","congress",21922,"GARCIA, Sylvia",100,"(TX-29)","TX","House","sylvia-garcia",29,-0.762
+"591",1080695666760929280,"repdebhaaland","MH11621928","congress",21928,"HAALAND, Debra",100,"(NM-01)","NM","House","debra-haaland",1,-0.322
+"592",1080830346915209216,"reptorressmall","MH11621976","congress",21976,"TORRES SMALL, Xochitl",100,"(NM-02)","NM","House","xochitl-torres-small",2,-0.168
+"593",1080851152151953410,"repjoshharder","MH11621930","congress",21930,"HARDER, Josh",100,"(CA-10)","CA","House","josh-harder",10,-0.37
+"594",1080854935535800320,"repronwright","MH11621984","congress",21984,"WRIGHT, Ron",200,"(TX-06)","TX","House","ron-wright",6,0.73
+"595",1080865917377097728,"repcindyaxne","MH11621902","congress",21902,"AXNE, Cynthia",100,"(IA-03)","IA","House","cynthia-axne",3,-0.249
+"596",1080870981877534720,"senatorbraun","MS11641900","congress",41900,"BRAUN, Michael",200,"(IN)","IN","Senate","michael-braun",0,0.8
+"597",1080875913926139910,"reptjcox","MH11621909","congress",21909,"COX, TJ",100,"(CA-21)","CA","House","tj-cox",21,-0.323
+"598",1080885078425784320,"repgregstanton","MH11621968","congress",21968,"STANTON, Greg",100,"(AZ-09)","AZ","House","greg-stanton",9,-0.301
+"599",1080891667308298240,"repgolden","MH11621923","congress",21923,"GOLDEN, Jared",100,"(ME-02)","ME","House","jared-golden",2,-0.179
+"600",1080894931311431682,"repdancrenshaw","MH11621911","congress",21911,"CRENSHAW, Daniel",200,"(TX-02)","TX","House","daniel-crenshaw",2,0.393
+"601",1080898026418384897,"repmalinowski","MH11621942","congress",21942,"MALINOWSKI, Tomaz",100,"(NJ-07)","NJ","House","tomaz-malinowski",7,-0.271
+"602",1080941062028447744,"repdmp","MH11621947","congress",21947,"MUCARSEL-POWELL, Debbie",100,"(FL-26)","FL","House","debbie-mucarsel-powell",26,-0.344
+"603",1080960924687704064,"senhawleypress","MS11641901","congress",41901,"HAWLEY, Joshua David",200,"(MO)","MO","Senate","joshua-david-hawley",0,0.574
+"604",1080978331535896576,"repbrindisi","MH11621904","congress",21904,"BRINDISI, Anthony",100,"(NY-22)","NY","House","anthony-brindisi",22,-0.152
+"605",1080986167003230208,"repgilcisneros","MH11621907","congress",21907,"CISNEROS, Gil",100,"(CA-39)","CA","House","gil-cisneros",39,-0.365
+"606",1081222837459996672,"repkatieporter","MH11621954","congress",21954,"PORTER, Katie",100,"(CA-45)","CA","House","katie-porter",45,-0.17
+"607",1081240074946252801,"repkirkpatrick","MH11620902","congress",20902,"KIRKPATRICK, Ann",100,"(AZ-02)","AZ","House","ann-kirkpatrick",2,-0.162
+"608",1081243468327018496,"repmichaelguest","MH11621927","congress",21927,"GUEST, Michael",200,"(MS-03)","MS","House","michael-guest",3,0.483
+"609",1081256295469068288,"repfinkenauer","MH11621918","congress",21918,"FINKENAUER, Abby",100,"(IA-01)","IA","House","abby-finkenauer",1,-0.252
+"610",1081312310059253763,"repjohnrose","MH11621959","congress",21959,"ROSE, John",200,"(TN-06)","TN","House","john-rose",6,0.681
+"611",1081318716573470720,"repcarolmiller","MH11621946","congress",21946,"MILLER, Carol",200,"(WV-03)","WV","House","carol-miller",3,0.459
+"612",1081350574589833221,"repedcase","MH11620322","congress",20322,"CASE, Ed",100,"(HI-01)","HI","House","ed-case",1,-0.2
+"613",1082086081238102018,"repjahanahayes","MH11621931","congress",21931,"HAYES, Jahana",100,"(CT-05)","CT","House","jahana-hayes",5,-0.347
+"614",1082311988926124036,"repjohnjoyce","MH11621936","congress",21936,"JOYCE, John",200,"(PA-13)","PA","House","john-joyce",13,0.543
+"615",1082334352711790593,"ilhan","MH11621950","congress",21950,"OMAR, Ilhan",100,"(MN-05)","MN","House","ilhan-omar",5,-0.299
+"616",1082369392229400576,"repgregpence","MH11621952","congress",21952,"PENCE, Gregory",200,"(IN-06)","IN","House","gregory-pence",6,0.436
+"617",1082380458976051202,"replucymcbath","MH11621944","congress",21944,"McBATH, Lucy",100,"(GA-06)","GA","House","lucy-mcbath",6,-0.256
+"618",1082416697380913152,"repmichaelwaltz","MH11621981","congress",21981,"WALTZ, Michael",200,"(FL-06)","FL","House","michael-waltz",6,0.404
+"619",1082427779583541248,"repchuygarcia","MH11621921","congress",21921,"GARC̍A, Jes̼s",100,"(IL-04)","IL","House","jesus-garcia",4,-0.54
+"620",1082790600292925440,"repchiproy","MH11621961","congress",21961,"ROY, Charles",200,"(TX-21)","TX","House","charles-roy",21,0.8
+"621",1083019402046513152,"repkendrahorn","MH11621933","congress",21933,"HORN, Kendra",100,"(OK-05)","OK","House","kendra-horn",5,-0.176
+"622",1083125649609506816,"repgregsteube","MH11621971","congress",21971,"STEUBE, William",200,"(FL-17)","FL","House","william-steube",17,0.655
+"623",1083469084648505344,"congressmanjvd","MH11621980","congress",21980,"VAN DREW, Jefferson",100,"(NJ-02)","NJ","House","jefferson-van-drew",2,-0.147
+"624",1083472286089396224,"repcasten","MH11621906","congress",21906,"CASTEN, Sean",100,"(IL-06)","IL","House","sean-casten",6,-0.402
+"625",1083474782602125318,"rephagedorn","MH11621929","congress",21929,"HAGEDORN, Jim",200,"(MN-01)","MN","House","jim-hagedorn",1,0.439
+"626",1086316494450032640,"repjimbaird","MH11621903","congress",21903,"BAIRD, James",200,"(IN-04)","IN","House","james-baird",4,0.415
+"627",1090328229548826627,"reprossspano","MH11621967","congress",21967,"SPANO, Ross",200,"(FL-15)","FL","House","ross-spano",15,0.454
+"628",1136060761422405633,"repfredkeller","MH11621985","congress",21985,"KELLER, Fred",200,"(PA-12)","PA","House","fred-keller",12,0.476
+"629",1173978070535024642,"repgregmurphy","MH11621987","congress",21987,"MURPHY, Gregory Francis",200,"(NC-03)","NC","House","gregory-francis-murphy",3,0.618
+"630",1200451909406121984,"senatorloeffler","MS11641904","congress",41904,"LOEFFLER, Kelly",200,"(GA)","GA","Senate","kelly-loeffler",0,0.547
+"631",1324926274888888320,"senmarkkelly","MS11641905","congress",41905,"KELLY, Mark Edward",100,"(AZ)","AZ","Senate","mark-edward-kelly",0,NA

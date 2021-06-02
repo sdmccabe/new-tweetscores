@@ -10,7 +10,7 @@ import numpy as np
 import scipy.io as sio
 
 def main():
-    political_elites = pd.read_csv("../data/elites_combined.csv", dtype={'user_id' :'string'})
+    political_elites = pd.read_csv("../data/elites_combined_v2.tsv", sep="\t", dtype={'user_id' :'string'})
 
     ID_TO_META = political_elites.set_index("user_id")['meta_id'].to_dict()
 
