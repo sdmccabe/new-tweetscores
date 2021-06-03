@@ -5,11 +5,14 @@ library(tidyverse)
 library(tweetscores)
 library(colorblindr)
 
+# get old tweetscores
 old_elites <- data.frame(handle = tolower(tweetscores::refdataCA$colnames),
                          ideal_point = tweetscores::refdataCA$colcoord[,1])
 
+# read in new ideal points
 new_elites <- readr::read_tsv("~/Desktop/GitHub/new-tweetscores/data/elites_combined_with_phi.tsv")
 
+# how many accounts in the new sample are also in the old sample?
 new_elites %>%
   mutate(handle = tolower(screen_name)) %>%
   left_join(old_elites, 
@@ -20,6 +23,7 @@ new_elites %>%
   group_by(source) %>%
   mutate(prop = n/sum(n))
   
+# how much nominal agreement among elites that overlap?
 new_elites %>%
   mutate(handle = tolower(screen_name)) %>%
   left_join(old_elites, 
@@ -35,3 +39,25 @@ new_elites %>%
        x = "Phi (2021)",
        y = "tweetScore (2015)")+
   theme_bw()
+
+# how much rank-order agreement among elites who overlap?
+new_elites %>%
+  mutate(handle = tolower(screen_name)) %>%
+  left_join(old_elites, 
+            by = "handle") %>%
+  filter(!is.na(ideal_point)) %>%
+  arrange(desc(phi)) %>%
+  mutate(phi_rank = 1:n()) %>%
+  arrange(desc(ideal_point)) %>%
+  mutate(tweetscore_rank = 1:n()) %>%
+  ggplot(aes(x = phi_rank, y = tweetscore_rank,
+             col = (source == "members_of_congress")))+
+  geom_point()+
+  geom_abline(slope = 1, intercept = 0)+
+  scale_color_OkabeIto(name = "Member of Congress?")+
+  labs(title = "Ideal point rank agreement: New estimate vs. tweetScore",
+       subtitle = "Among elites with estimates in both samples",
+       x = "Phi Rank (2021)",
+       y = "tweetScore Rank (2015)")+
+  theme_bw()
+
