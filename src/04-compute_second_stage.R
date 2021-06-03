@@ -11,7 +11,7 @@ mat <- readMM("../data/panel_elites_mat.mtx")
 colnames(mat) <- readLines("../data/panel_elites_mat_colnames.txt")
 rownames(mat) <- readLines("../data/panel_elites_mat_rownames.txt")
 
-elites <- read_tsv('../data/elites_combined_with_phi.tsv', col_types="ifcccdddddddc")
+elites <- read_tsv('../data/elites_combined_with_phi.tsv', col_types="fcccdddddddcc")
 elites <- filter(elites, meta_id %in% colnames(mat))
 
 
