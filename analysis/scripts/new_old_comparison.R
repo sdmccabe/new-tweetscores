@@ -22,9 +22,10 @@ new_elites %>%
   summarise(n = n()) %>%
   group_by(source) %>%
   mutate(prop = n/sum(n))
-  
+
 # how much nominal agreement among elites that overlap?
-new_elites %>%
+nominal_agreement <- 
+  new_elites %>%
   mutate(handle = tolower(screen_name)) %>%
   left_join(old_elites, 
             by = "handle") %>%
@@ -39,9 +40,11 @@ new_elites %>%
        x = "Phi (2021)",
        y = "tweetScore (2015)")+
   theme_bw()
+ggsave(nominal_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/nominal_agreement_overlap.png", width = 8, height = 4)
 
 # how much rank-order agreement among elites who overlap?
-new_elites %>%
+rank_agreement <- 
+  new_elites %>%
   mutate(handle = tolower(screen_name)) %>%
   left_join(old_elites, 
             by = "handle") %>%
@@ -58,6 +61,8 @@ new_elites %>%
   labs(title = "Ideal point rank agreement: New estimate vs. tweetScore",
        subtitle = "Among elites with estimates in both samples",
        x = "Phi Rank (2021)",
-       y = "tweetScore Rank (2015)")+
+       y = "tweetScore Rank (2015)",
+       caption = "Refernece line represents y = x")+
   theme_bw()
+ggsave(rank_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/rank_agreement_overlap.png", width = 8, height = 4)
 
