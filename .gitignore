@@ -134,3 +134,4 @@ panel_elites_mat_colnames.txt
 thetas.tsv
 correspondence_analysis.rdata
 ALT_TWITTER_API_TOKEN
+.DS_Store
