@@ -32,7 +32,7 @@ There are a series of binary columns representing the lists each account appeare
 
 * `moc_116`: A list of members of the 116th Congress.
 * `moc_117`: A list of members of the 117th Congress.
-* `pundit`: A list of political pundits, collecting using a similar method to [this post](https://www.dataforprogress.org/blog/2018/11/19/identifying-and-estimating-the-ideologies-of-twitter-pundits).
+* `pundit`: A list of political pundits, collected for [this working paper](https://www.dropbox.com/s/xv3m14dcfy3pyde/green_masket_MPSA.pdf?dl=0).
 * `covid_elite`: A list of political accounts prominent during the COVID-19 pandemic, described in [this preprint](https://arxiv.org/abs/2009.07255).
 * `president`: The personal or POTUS account for each of Obama, Trump, and Biden.
 * `governor`: A list of state governors.
