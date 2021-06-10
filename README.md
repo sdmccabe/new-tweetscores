@@ -18,3 +18,26 @@ The elite-level ideal points (φ in the original paper) are stored in this
 repository. The user-level ideal points (θ) are not (we generally don't post the
 user IDs of the panel members, and also the full dataset is too large to commit
 to Github).
+
+The key file, `data/elites_combined_with_phi.tsv`, has the following columns:
+* `meta_id`: a single identifier for individuals with multiple Twitter accounts.
+* `user_id`: the ID for the Twitter account.
+* `screen_name`: the handle for the Twitter account.
+* `phi`: The first dimension of the ideal point.
+* `phi_2`: The second dimension of the ideal point.
+* `followers`: The number of _in-sample_ accounts following the user.
+* `voteview_id`: If the target is a Member of Congress, their VoteView ID (for joining in, e.g., NOMINATE data).
+
+There are a series of binary columns representing the lists each account appeared in. These are:
+
+* `moc_116`: A list of members of the 116th Congress.
+* `moc_117`: A list of members of the 117th Congress.
+* `pundit`: A list of political pundits, collecting using a similar method to [this post](https://www.dataforprogress.org/blog/2018/11/19/identifying-and-estimating-the-ideologies-of-twitter-pundits).
+* `covid_elite`: A list of political accounts prominent during the COVID-19 pandemic, described in [this preprint](https://arxiv.org/abs/2009.07255).
+* `president`: The personal or POTUS account for each of Obama, Trump, and Biden.
+* `governor`: A list of state governors.
+* `media`: A list of prominent media accounts, seen [here](https://github.com/pablobarbera/twitter_ideology/tree/master/2020-update).
+* `candidates`: A list of candidates for office in 2020.
+* `official`: A list of Trump administration officials.
+
+These lists are available for individual inspection in `data/source_files`.
