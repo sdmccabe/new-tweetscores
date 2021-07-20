@@ -79,44 +79,46 @@ governors <- governors %>%
 governors <- governors %>%
    select(meta_id, screen_name, user_id)
 
+media <- read_tsv("../data/source_files/snowball_news_orgs_scrubbed.tsv", col_types = c("cccccccccccccccccccccccccccccccccccccccccccc")) %>%
+  select(meta_id, screen_name, user_id)
 # Use Pablo's 2020 media list (for now?)
-media = tribble(
-    ~screen_name, ~user_id,
-    "EconUS", "32353291",
-    "BBCWorld", "742143",
-    "NPR", "5392522",
-    "NewsHour", "14437914",
-    "WSJ", "3108351",
-    "ABC", "28785486",
-    "CBSNews", "15012486",
-    "NBCNews", "14173315",
-    "CNN", "759251",
-    "USATODAY", "15754281",
-    "theblaze", "10774652",
-    "nytimes", "807095",
-    "washingtonpost", "2467791",
-    "msnbc", "2836421",
-    "GuardianUS", "16042794",
-    "Bloomberg", "104237736",
-    "NewYorker", "14677919",
-    "politico", "9300262",
-    "YahooNews", "7309052",
-    "FoxNews", "1367531",
-    "MotherJones", "18510860",
-    "Slate", "15164565",
-    "BreitbartNews", "457984599",
-    "HuffPostPol", "15458694",
-    "StephenAtHome", "16303106",
-    "thinkprogress", "55355654",
-    "TheDailyShow", "158414847",
-    "dailykos", "20818801",
-    "seanhannity", "41634520",
-    "FiveThirtyEight", "2303751216",
-    "glennbeck", "17454769",
-    "BuzzFeedPol", "456806128",
-    "voxdotcom", "2347049341",
-    "OANN", "1209936918"
-)
+## media = tribble(
+##     ~screen_name, ~user_id,
+##     "EconUS", "32353291",
+##     "BBCWorld", "742143",
+##     "NPR", "5392522",
+##     "NewsHour", "14437914",
+##     "WSJ", "3108351",
+##     "ABC", "28785486",
+##     "CBSNews", "15012486",
+##     "NBCNews", "14173315",
+##     "CNN", "759251",
+##     "USATODAY", "15754281",
+##     "theblaze", "10774652",
+##     "nytimes", "807095",
+##     "washingtonpost", "2467791",
+##     "msnbc", "2836421",
+##     "GuardianUS", "16042794",
+##     "Bloomberg", "104237736",
+##     "NewYorker", "14677919",
+##     "politico", "9300262",
+##     "YahooNews", "7309052",
+##     "FoxNews", "1367531",
+##     "MotherJones", "18510860",
+##     "Slate", "15164565",
+##     "BreitbartNews", "457984599",
+##     "HuffPostPol", "15458694",
+##     "StephenAtHome", "16303106",
+##     "thinkprogress", "55355654",
+##     "TheDailyShow", "158414847",
+##     "dailykos", "20818801",
+##     "seanhannity", "41634520",
+##     "FiveThirtyEight", "2303751216",
+##     "glennbeck", "17454769",
+##     "BuzzFeedPol", "456806128",
+##     "voxdotcom", "2347049341",
+##     "OANN", "1209936918"
+## )
 
 # need vectors of IDs so that list membership can be assigned
 moc_117_ids <- moc_117$user_id
