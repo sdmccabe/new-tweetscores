@@ -22,7 +22,8 @@ seed.orgs <- c("nytimes","foxnews","breitbartnews","washingtonpost",
                "rollingstone","nymag","voxdotcom",
                "dailycaller","thehill","realclearnews",
                "theeconomist","msnbc","cnn","cnnbrk",
-               "cbsnews","abcnews","nbcnews")
+               "cbsnews","abcnews","nbcnews",
+               "theblaze","oann")
 
 keystring <- "news|politics|opinion"
 
@@ -124,7 +125,5 @@ snowfunc <- function(seed, keys){
 
 news_snowball <- snowfunc(seed = seed.orgs, keys = keystring)
 
-write.csv(news_snowball, file = "~/Desktop/GitHub/new-tweetscores/data/snowball_news_orgs_prescrub.csv")
-
-
+write.csv(news_snowball, file = "~/Desktop/GitHub/new-tweetscores/data/source_files/snowball_news_orgs_prescrub.csv")
 
