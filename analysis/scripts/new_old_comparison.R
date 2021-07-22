@@ -44,7 +44,8 @@ nominal_agreement <-
                                 media == 1 ~ "Media Organization",
                                 candidate == 1 ~ "Political Candidate",
                                 governor == 1 ~ "Governor",
-                                official == 1 ~ "Government Official")) %>%
+                                official == 1 ~ "Government Official",
+                                media == 1 ~ "Media Organization")) %>%
   left_join(old_tweetscores, by = "handle") %>%
   ggplot(aes(x = phi, y = tweetscore, col = elite_type))+
   geom_point()+
@@ -54,7 +55,7 @@ nominal_agreement <-
        subtitle = "Among elites with estimates in both samples",
        x = "Phi (2021)",
        y = "tweetScore (2015)",
-       caption = "Referenece line represents y = x")+
+       caption = "Reference line represents y = x")+
   theme_jg()
 ggsave(nominal_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/nominal_agreement_overlap.png", width = 8, height = 4)
 
@@ -69,7 +70,8 @@ new_tweetscores %>%
                                 media == 1 ~ "Media Organization",
                                 candidate == 1 ~ "Political Candidate",
                                 governor == 1 ~ "Governor",
-                                official == 1 ~ "Government Official")) %>%
+                                official == 1 ~ "Government Official",
+                                media == 1 ~ "Media Organization")) %>%
   left_join(old_tweetscores, by = "handle") %>%
   filter(!is.na(tweetscore)) %>% nrow()
 
@@ -85,7 +87,8 @@ rank_agreement <-
                                 media == 1 ~ "Media Organization",
                                 candidate == 1 ~ "Political Candidate",
                                 governor == 1 ~ "Governor",
-                                official == 1 ~ "Government Official")) %>%
+                                official == 1 ~ "Government Official",
+                                media == 1 ~ "Media Organization")) %>%
   left_join(old_tweetscores, by = "handle") %>%
   filter(!is.na(tweetscore)) %>%
   arrange(desc(phi)) %>%
@@ -101,7 +104,7 @@ rank_agreement <-
        subtitle = "Among elites with estimates in both samples",
        x = "Phi Rank (2021)",
        y = "tweetScore Rank (2015)",
-       caption = "Referenece line represents y = x")+
+       caption = "Reference line represents y = x")+
   theme_jg()
 ggsave(rank_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/rank_agreement_overlap.png", width = 8, height = 4)
 
@@ -117,7 +120,8 @@ diff_df <- new_tweetscores %>%
                                 media == 1 ~ "Media Organization",
                                 candidate == 1 ~ "Political Candidate",
                                 governor == 1 ~ "Governor",
-                                official == 1 ~ "Government Official")) %>%
+                                official == 1 ~ "Government Official",
+                                media == 1 ~ "Media Organization")) %>%
   left_join(old_tweetscores, by = "handle") %>%
   filter(!is.na(tweetscore) & !is.na(phi)) %>%
   arrange(phi) %>%
@@ -181,7 +185,7 @@ diff_dist <-
   geom_vline(xintercept = mean(diff_df$diffrank), lty = "dashed", col = "red")+
   labs(title = "Distribution of Rank Movement",
        subtitle = "Mean (dashed) and median (solid) shown with red refernce lines",
-       x = "Absolute Value Movement in Rank (of 335 Overlapping Elites)\n2015-2021",
+       x = "Absolute Value Movement in Rank (of 351 Overlapping Elites)\n2015-2021",
        y = "Count")+
   theme_jg()
 ggsave(diff_dist, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/diff_dist.png", width = 10, height = 6)
