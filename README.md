@@ -36,7 +36,7 @@ There are a series of binary columns representing the lists each account appeare
 * `covid_elite`: A list of political accounts prominent during the COVID-19 pandemic, described in [this preprint](https://arxiv.org/abs/2009.07255).
 * `president`: The personal or POTUS account for each of Obama, Trump, and Biden.
 * `governor`: A list of state governors.
-* `media`: A list of prominent media accounts, seen [here](https://github.com/pablobarbera/twitter_ideology/tree/master/2020-update).
+* `media`: A list of media accounts, created by [snowball sampling lists of media accounts](https://github.com/sdmccabe/new-tweetscores/src/06-snowball_news_orgs.R).>
 * `candidates`: A list of candidates for office in 2020.
 * `official`: A list of Trump administration officials.
 
