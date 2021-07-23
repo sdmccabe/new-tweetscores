@@ -109,6 +109,37 @@ rank_agreement <-
 ggsave(rank_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/rank_agreement_overlap.png", width = 8, height = 4)
 
 
+# correlation within type
+rank_type_df <- 
+  new_tweetscores %>%
+  mutate(handle = tolower(screen_name),
+         elite_type = case_when(moc_117 == 1 ~ "Current Member of Congress",
+                                moc_116 == 1 ~ "Recent Member of Congress",
+                                pundit == 1 ~ "Pundit (Green and Masket 2021)",
+                                covid_elite == 1 ~ "Covid Elite (Gallagher et al 2021)",
+                                president == 1 ~ "Current or Former President",
+                                media == 1 ~ "Media Organization",
+                                candidate == 1 ~ "Political Candidate",
+                                governor == 1 ~ "Governor",
+                                official == 1 ~ "Government Official",
+                                media == 1 ~ "Media Organization")) %>%
+  left_join(old_tweetscores, by = "handle") %>%
+  filter(!is.na(tweetscore)) %>%
+  arrange(desc(phi)) %>%
+  mutate(phi_rank = 1:n()) %>%
+  arrange(desc(tweetscore)) %>%
+  mutate(tweetscore_rank = 1:n())
+
+bind_rows(lapply(unique(rank_type_df$elite_type), function(x){
+  rank_type_df %>% 
+    filter(elite_type == x & !is.na(phi_rank) & !is.na(tweetscore_rank)) %>%
+    summarise(rank_spearman_cor = cor(phi_rank, tweetscore_rank, method = "spearman"),
+              n = n()) %>%
+    mutate(elite_type = x)
+})) %>%
+  #filter(!is.na(rank_spearman_cor)) %>%
+  arrange(desc(rank_spearman_cor))
+
 # for whom is there disagreement?
 diff_df <- new_tweetscores %>%
   mutate(handle = tolower(screen_name),
