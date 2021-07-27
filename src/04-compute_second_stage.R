@@ -40,11 +40,8 @@ num_follow <- sapply(adj, length)
 thetas <- sapply(adj, function(x) mean(phi[x], na.rm=T))
 theta_2s <- sapply(adj, function(x) mean(phi_2[x], na.rm=T))
 
-#thetas <- rowSums(phi_mat) / num_follow
-#theta_2s <- rowSums(phi_2_mat) / num_follow
-
 # We bring in side information from the voter file to validate the same way Pablo did.
-vf <- read_csv("~/tmp/TSmart-cleaner-Oct2017-rawFormat.csv", col_types = c(twProfileID="c", tsmart_partisan_score="n"))
+vf <- read_csv("~/tmp/TSmart-cleaner-Oct2017-rawFormat.csv", col_types = c(twProfileID="c", tsmart_partisan_score="n"), guess_max=500000)
 vf <- vf %>% select(twProfileID, tsmart_partisan_score)
 
 vf$party <- case_when(vf$tsmart_partisan_score < 35 ~ "Republican", vf$tsmart_partisan_score > 65 ~ "Democrat", TRUE ~ "Independent")
@@ -58,5 +55,6 @@ vf$scaled_theta_2 <- scale(vf$theta_2)
 
 # drop all the NAs
 vf <- vf %>% filter(follows > 0)
+vf <- vf[!is.nan(vf$theta),]
 
 write_tsv(vf, "../data/thetas.tsv")
