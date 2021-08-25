@@ -1,6 +1,7 @@
 # checking old vs. new elite ideal points for overlapping elites
 library(tidyverse)
 library(tweetscores)
+library(colorblindr)
 theme_jg <-function(){
   theme_bw()+
     theme(text = element_text(family = "serif", size = 16),
@@ -10,10 +11,12 @@ theme_jg <-function(){
 
 new_tweetscores <- readr::read_tsv("~/Desktop/GitHub/new-tweetscores/data/elites_combined_with_phi.tsv")
 
+library(tweetscores)
 data(refdataCA)
 head(refdataCA)
 
 old_tweetscores <- data.frame(handle = tolower(refdataCA$colnames),
+                              user_id = as.character(refdataCA$id),
                               tweetscore = refdataCA$colcoord[,1])
 
 old_tweetscores %>% 
@@ -36,6 +39,7 @@ old_tweetscores %>%
 nominal_agreement <- 
   new_tweetscores %>%
   mutate(handle = tolower(screen_name),
+         user_id = as.character(user_id),
          elite_type = case_when(moc_117 == 1 ~ "Current Member of Congress",
                                 moc_116 == 1 ~ "Recent Member of Congress",
                                 pundit == 1 ~ "Pundit (Green and Masket 2021)",
@@ -46,7 +50,7 @@ nominal_agreement <-
                                 governor == 1 ~ "Governor",
                                 official == 1 ~ "Government Official",
                                 media == 1 ~ "Media Organization")) %>%
-  left_join(old_tweetscores, by = "handle") %>%
+  left_join(old_tweetscores, by = "user_id") %>%
   ggplot(aes(x = phi, y = tweetscore, col = elite_type))+
   geom_point()+
   geom_abline(slope = 1, intercept = 0)+
@@ -75,10 +79,9 @@ new_tweetscores %>%
   left_join(old_tweetscores, by = "handle") %>%
   filter(!is.na(tweetscore)) %>% nrow()
 
-# how much rank-order agreement among elites who overlap?
-rank_agreement <- 
-  new_tweetscores %>%
+agree_df <-  new_tweetscores %>%
   mutate(handle = tolower(screen_name),
+         user_id = as.character(user_id),
          elite_type = case_when(moc_117 == 1 ~ "Current Member of Congress",
                                 moc_116 == 1 ~ "Recent Member of Congress",
                                 pundit == 1 ~ "Pundit (Green and Masket 2021)",
@@ -89,15 +92,23 @@ rank_agreement <-
                                 governor == 1 ~ "Governor",
                                 official == 1 ~ "Government Official",
                                 media == 1 ~ "Media Organization")) %>%
-  left_join(old_tweetscores, by = "handle") %>%
+  left_join(old_tweetscores, by = "user_id") %>%
   filter(!is.na(tweetscore)) %>%
-  arrange(desc(phi)) %>%
+  arrange(phi) %>%
   mutate(phi_rank = 1:n()) %>%
-  arrange(desc(tweetscore)) %>%
-  mutate(tweetscore_rank = 1:n()) %>%
-  ggplot(aes(x = phi_rank, y = tweetscore_rank,
-             col = elite_type))+
-  geom_point()+
+  arrange(tweetscore) %>%
+  mutate(tweetscore_rank = 1:n())
+
+# how much rank-order agreement among elites who overlap?
+rank_agreement <- 
+  agree_df %>%
+  ggplot()+
+  geom_point(aes(x = phi_rank, y = tweetscore_rank,
+                 col = elite_type))+
+  geom_text(aes(x = 90, y = 300, label = paste0("Spearman Correlation: ", round(cor(agree_df$phi, 
+                                                                                     agree_df$tweetscore, 
+                                                                                     use = "pairwise.complete.obs", 
+                                                                                     method = "spearman"), 3))))+
   geom_abline(slope = 1, intercept = 0)+
   scale_color_OkabeIto(name = "Elite Type")+
   labs(title = "Ideal point rank agreement: New estimate vs. tweetScore",
@@ -106,13 +117,14 @@ rank_agreement <-
        y = "tweetScore Rank (2015)",
        caption = "Reference line represents y = x")+
   theme_jg()
-ggsave(rank_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/rank_agreement_overlap.png", width = 8, height = 4)
+ggsave(rank_agreement, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/rank_agreement_overlap.png", width = 8, height = 6)
 
 
 # correlation within type
 rank_type_df <- 
   new_tweetscores %>%
   mutate(handle = tolower(screen_name),
+         user_id = as.character(user_id),
          elite_type = case_when(moc_117 == 1 ~ "Current Member of Congress",
                                 moc_116 == 1 ~ "Recent Member of Congress",
                                 pundit == 1 ~ "Pundit (Green and Masket 2021)",
@@ -123,7 +135,7 @@ rank_type_df <-
                                 governor == 1 ~ "Governor",
                                 official == 1 ~ "Government Official",
                                 media == 1 ~ "Media Organization")) %>%
-  left_join(old_tweetscores, by = "handle") %>%
+  left_join(old_tweetscores, by = "user_id") %>%
   filter(!is.na(tweetscore)) %>%
   arrange(desc(phi)) %>%
   mutate(phi_rank = 1:n()) %>%
@@ -143,6 +155,7 @@ bind_rows(lapply(unique(rank_type_df$elite_type), function(x){
 # for whom is there disagreement?
 diff_df <- new_tweetscores %>%
   mutate(handle = tolower(screen_name),
+         user_id = as.character(user_id),
          elite_type = case_when(moc_117 == 1 ~ "Current Member of Congress",
                                 moc_116 == 1 ~ "Recent Member of Congress",
                                 pundit == 1 ~ "Pundit (Green and Masket 2021)",
@@ -153,7 +166,7 @@ diff_df <- new_tweetscores %>%
                                 governor == 1 ~ "Governor",
                                 official == 1 ~ "Government Official",
                                 media == 1 ~ "Media Organization")) %>%
-  left_join(old_tweetscores, by = "handle") %>%
+  left_join(old_tweetscores, by = "user_id") %>%
   filter(!is.na(tweetscore) & !is.na(phi)) %>%
   arrange(phi) %>%
   mutate(phi_rank = 1:n()) %>%
@@ -164,10 +177,10 @@ diff_df <- new_tweetscores %>%
 
 movement_plot <-diff_df %>%
   arrange(desc(diffrank)) %>%
-  slice(1:100) %>%
-  dplyr::select(handle, elite_type, phi, tweetscore, phi_rank, tweetscore_rank, diffrank) %>%
-  ggplot(aes(x = fct_rev(fct_inorder(handle)),
-             xend = fct_rev(fct_inorder(handle)),
+  slice(1:25) %>%
+  dplyr::select(user_id,screen_name, elite_type, phi, tweetscore, phi_rank, tweetscore_rank, diffrank) %>%
+  ggplot(aes(x = fct_rev(fct_inorder(screen_name)),
+             xend = fct_rev(fct_inorder(screen_name)),
              y = tweetscore_rank,
              yend = phi_rank,
              col = elite_type))+
@@ -176,18 +189,18 @@ movement_plot <-diff_df %>%
   scale_color_OkabeIto(name = "Elite Type")+
   labs(x = "Elite", y = "Rank\nRight = More Conservative",
        title = "Rank order movement among overlapping elites",
-       subtitle = "Arrows from tweetScore (2015) rank to phi (2021) rank\nTop 100 of 335 overlapping elites with largest movement shown")+
+       subtitle = "Arrows from tweetScore (2015) rank to phi (2021) rank\nTop 25 of 372 overlapping elites with largest movement shown")+
   theme_jg()
-ggsave(movement_plot, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/movement_plot.png", width = 10, height = 20)
+ggsave(movement_plot, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/movement_plot.png", width = 10, height = 6)
 
 
 stability_plot <- 
   diff_df %>%
   arrange(diffrank) %>%
-  slice(1:100) %>%
-  dplyr::select(handle, elite_type, phi, tweetscore, phi_rank, tweetscore_rank, diffrank) %>%
-  ggplot(aes(x = fct_rev(fct_inorder(handle)),
-             xend = fct_rev(fct_inorder(handle)),
+  slice(1:25) %>%
+  dplyr::select(user_id,screen_name, elite_type, phi, tweetscore, phi_rank, tweetscore_rank, diffrank) %>%
+  ggplot(aes(x = fct_rev(fct_inorder(screen_name)),
+             xend = fct_rev(fct_inorder(screen_name)),
              y = tweetscore_rank,
              yend = phi_rank,
              col = elite_type))+
@@ -196,9 +209,9 @@ stability_plot <-
   scale_color_OkabeIto(name = "Elite Type")+
   labs(x = "Elite", y = "Rank\nRight = More Conservative",
        title = "Rank order movement among overlapping elites",
-       subtitle = "Arrows from tweetScore (2015) rank to phi (2021) rank\nBottom 100 of 335 overlapping elites with smallest movement shown")+
+       subtitle = "Arrows from tweetScore (2015) rank to phi (2021) rank\nBottom 25 of 372 overlapping elites with smallest movement shown")+
   theme_jg()
-ggsave(stability_plot, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/stability_plot.png", width = 10, height = 20)
+ggsave(stability_plot, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/stability_plot.png", width = 10, height = 6)
 
 
 diff_df %>%
@@ -215,8 +228,8 @@ diff_dist <-
   geom_vline(xintercept = median(diff_df$diffrank), lty = "solid", col = "red")+
   geom_vline(xintercept = mean(diff_df$diffrank), lty = "dashed", col = "red")+
   labs(title = "Distribution of Rank Movement",
-       subtitle = "Mean (dashed) and median (solid) shown with red refernce lines",
-       x = "Absolute Value Movement in Rank (of 351 Overlapping Elites)\n2015-2021",
+       subtitle = "Mean (dashed) and median (solid) shown with red reference lines",
+       x = "Absolute Value Movement in Rank (of 372 Overlapping Elites)\n2015-2021",
        y = "Count")+
   theme_jg()
 ggsave(diff_dist, file = "~/Desktop/GitHub/new-tweetscores/analysis/figures/diff_dist.png", width = 10, height = 6)
