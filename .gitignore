@@ -135,3 +135,5 @@ thetas.tsv
 correspondence_analysis.rdata
 ALT_TWITTER_API_TOKEN
 .DS_Store
+data/list_of_active_users.txt
+.Rhistory
