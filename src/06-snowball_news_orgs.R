@@ -4,11 +4,11 @@ library(rtweet)
 
 tw_token <- 
   rtweet::create_token(
-    app = "jigapp",
-    consumer_key = "c2KT4wRTPCM08wCExxD0gJ4AK",
-    consumer_secret = "NCQZ3z7m4EsdzWbEsDQdlNbm0HCTw7HbAjLLcy5IpRjuyKkUzB",
-    access_token = "493387905-Oayoy9RMxNArfUyRdRXf3GqvDJKcMqVgAMfiuEoJ",
-    access_secret = "2Rg5XEvN5HtQCwztnJ513aiIf1NT1FeSTh6HIyDjqRn9V"
+    app = "your_app",
+    consumer_key = "your_key",
+    consumer_secret = "your_secret",
+    access_token = "your_token",
+    access_secret = "your_secret"
   )
 
 check.limits <- function(){
