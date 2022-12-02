@@ -1,0 +1,6 @@
+tweepy==4.12.1
+pandas==1.5.2
+numpy==1.23.5
+networkx==2.8.8
+tqdm==4.64.1
+scipy==1.9.3
