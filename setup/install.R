@@ -3,6 +3,5 @@ utils::install.packages(
     "Matrix",
     "patchwork",
     "rtweet",
-    "assertthat",
-    "tweetscore")
+    "assertthat")
 )

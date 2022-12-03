@@ -2,17 +2,22 @@ import tweepy
 import pandas as pd
 import csv
 import numpy as np
+import sys
 
-with open("ALT_TWITTER_API_TOKEN", "r") as fin:
+fname = sys.argv[1]
+print(fname)
+
+with open(fname, "r") as fin:
     auth = tweepy.OAuthHandler(fin.readline().strip(), fin.readline().strip())
     auth.set_access_token(fin.readline().strip(), fin.readline().strip())
 
-api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
 def rehydrate(handle):
     if pd.notnull(handle):
         try:
+            print(f"looking up {handle}")
             res = api.lookup_users(screen_name=handle)
             if res:
                 return res[0]._json['id_str']
